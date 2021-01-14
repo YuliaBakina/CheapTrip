@@ -86,7 +86,7 @@ public class MainPageTest extends TestBase{
 
     }
 
-    @Test (enabled = true, priority = 0, groups = {"functional"}) //priority - порядок выполнения тестов
+    @Test (enabled = false, priority = 0, groups = {"functional"}) //priority - порядок выполнения тестов
     public void changeLanguageValidationTest() throws InterruptedException {
 
         appManager.getMainPage().selectRussianLanguage();

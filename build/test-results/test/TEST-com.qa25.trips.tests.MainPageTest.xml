@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.qa25.trips.tests.MainPageTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-01-14T11:12:10" hostname="JULIABOOK" time="6.592">
+<testsuite name="com.qa25.trips.tests.MainPageTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-01-14T11:20:02" hostname="JULIABOOK" time="4.335">
   <properties/>
-  <testcase name="changeLanguageValidationTest" classname="com.qa25.trips.tests.MainPageTest" time="2.214"/>
-  <testcase name="mainPageCheckElementsDefaultValuesSetTest" classname="com.qa25.trips.tests.MainPageTest" time="2.115"/>
-  <testcase name="mainPageCheckElementsPresentTest" classname="com.qa25.trips.tests.MainPageTest" time="2.2"/>
-  <testcase name="sloganValidationTest" classname="com.qa25.trips.tests.MainPageTest" time="0.026"/>
-  <system-out><![CDATA[13:12:10.689 INFO  com.qa25.trips.tests.TestBase - Start test: changeLanguageValidationTest
-13:12:12.915 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
-13:12:12.915 INFO  com.qa25.trips.tests.TestBase - Stop test: changeLanguageValidationTest
-13:12:12.916 INFO  com.qa25.trips.tests.TestBase - ======================================================
-13:12:12.924 INFO  com.qa25.trips.tests.TestBase - Start test: mainPageCheckElementsDefaultValuesSetTest
-13:12:15.046 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
-13:12:15.047 INFO  com.qa25.trips.tests.TestBase - Stop test: mainPageCheckElementsDefaultValuesSetTest
-13:12:15.051 INFO  com.qa25.trips.tests.TestBase - ======================================================
-13:12:15.052 INFO  com.qa25.trips.tests.TestBase - Start test: mainPageCheckElementsPresentTest
-13:12:17.258 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
-13:12:17.258 INFO  com.qa25.trips.tests.TestBase - Stop test: mainPageCheckElementsPresentTest
-13:12:17.258 INFO  com.qa25.trips.tests.TestBase - ======================================================
-13:12:17.259 INFO  com.qa25.trips.tests.TestBase - Start test: sloganValidationTest
-13:12:17.291 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
-13:12:17.292 INFO  com.qa25.trips.tests.TestBase - Stop test: sloganValidationTest
-13:12:17.292 INFO  com.qa25.trips.tests.TestBase - ======================================================
+  <testcase name="mainPageCheckElementsDefaultValuesSetTest" classname="com.qa25.trips.tests.MainPageTest" time="2.134"/>
+  <testcase name="mainPageCheckElementsPresentTest" classname="com.qa25.trips.tests.MainPageTest" time="2.158"/>
+  <testcase name="sloganValidationTest" classname="com.qa25.trips.tests.MainPageTest" time="0.024"/>
+  <system-out><![CDATA[13:20:02.675 INFO  com.qa25.trips.tests.TestBase - Start test: mainPageCheckElementsDefaultValuesSetTest
+13:20:04.811 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+13:20:04.811 INFO  com.qa25.trips.tests.TestBase - Stop test: mainPageCheckElementsDefaultValuesSetTest
+13:20:04.811 INFO  com.qa25.trips.tests.TestBase - ======================================================
+13:20:04.813 INFO  com.qa25.trips.tests.TestBase - Start test: mainPageCheckElementsPresentTest
+13:20:06.976 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+13:20:06.977 INFO  com.qa25.trips.tests.TestBase - Stop test: mainPageCheckElementsPresentTest
+13:20:06.982 INFO  com.qa25.trips.tests.TestBase - ======================================================
+13:20:06.982 INFO  com.qa25.trips.tests.TestBase - Start test: sloganValidationTest
+13:20:07.010 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+13:20:07.011 INFO  com.qa25.trips.tests.TestBase - Stop test: sloganValidationTest
+13:20:07.011 INFO  com.qa25.trips.tests.TestBase - ======================================================
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
