@@ -31,3 +31,33 @@ dependencies {
 test {
     useTestNG()
 }
+
+task testRegr(type:Test){
+    useTestNG {
+        suites 'src/test/resources/testng-Regression.xml'
+
+    }
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
+}
+
+task testUI(type:Test){
+    useTestNG {
+        suites 'src/test/resources/testng-UITests.xml'
+
+    }
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
+}
+
+task testFunctional(type:Test){
+    useTestNG {
+        suites 'src/test/resources/testng-FunctionalTests.xml'
+
+    }
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
+}

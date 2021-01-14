@@ -1,20 +1,15 @@
 package com.qa25.trips.tests;
 
-import com.qa25.trips.fw.MainPage;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class MainPageTest extends TestBase{
 
-    MainPage mainPage;
-    WebDriver wd;
-
-    @BeforeMethod
+    @BeforeTest
     public void insurePreconditions(){
-        appManager.getMainPage().isMainPageOpened(appManager.getBaseURL());
-
+        //appManager.getMainPage().isMainPageOpened(appManager.getBaseURL());
+        appManager.getMainPage().opeMainPage(appManager.getBaseURL());
     }
 
 
@@ -86,12 +81,12 @@ public class MainPageTest extends TestBase{
 
     }
 
-    @Test (enabled = false, priority = 0, groups = {"functional"}) //priority - порядок выполнения тестов
+    @Test (enabled = true, priority = 3, groups = {"functional"}) //priority - порядок выполнения тестов
     public void changeLanguageValidationTest() throws InterruptedException {
-
-        appManager.getMainPage().selectRussianLanguage();
+        //1=Ru, 0=En
+        appManager.getMainPage().selectAppLanguage(1);
         appManager.getMainPage().delay(1000);
-        appManager.getMainPage().isLanguageOnPageRussian();
+        Assert.assertTrue(appManager.getMainPage().isLanguageOnPageCorrect(1));
 
     }
 

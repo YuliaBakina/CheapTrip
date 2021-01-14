@@ -2,7 +2,6 @@ package com.qa25.trips.fw;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.FindBy;
 
 public class MainPage extends HelperBase{
 
@@ -15,6 +14,10 @@ public class MainPage extends HelperBase{
         if(!wd.getCurrentUrl().contains(url)){
             wd.navigate().to(url);
         }
+    }
+
+    public void opeMainPage(String url){
+           wd.navigate().to(url);
     }
 
     public boolean ifMainPageConsistLogo(){
@@ -125,16 +128,22 @@ public class MainPage extends HelperBase{
     }
 
 ///////////////////////////////
-    public void selectRussianLanguage() throws InterruptedException {
-        //  @FindBy(css = "ion-sel-1-lbl"); - language
-       //qq "id = 'ion-rb-3-lbl'" - russian
+    public void selectAppLanguage(int lang) throws InterruptedException {
+
         click(By.cssSelector("ion-buttons.select.buttons-last-slot.sc-ion-buttons-md-h.sc-ion-buttons-md-s.md.hydrated"));
         delay(1000);
-        getItemsList(By.cssSelector("ion-item.select-interface-option")).get(1).click();
+        getItemsList(By.cssSelector("ion-item.select-interface-option")).get(lang).click();
     }
 
-    public boolean isLanguageOnPageRussian() {
-        return getText(By.xpath("//ion-card-title")).contains("Найдите самый дешевый способ добраться из города в город");
+    public boolean isLanguageOnPageCorrect(int lang) {
+
+        if(lang == 1){
+            return getText(By.xpath("//ion-card-title")).contains("Найдите самый дешевый способ добраться из города в город");
+        }
+        if (lang == 0){
+            return getText(By.xpath("//ion-card-title")).contains("Discover the cheapest way to get anywhere combining plane");
+        }
+        return false;
     }
 
 

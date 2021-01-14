@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UI" verbose="1" >
+    <test name="MainPage" >
+        <classes>
+            <class name="com.qa25.trips.tests.MainPageTest">
+                <methods>
+                    <include name="mainPageCheckElementsPresentTest.*" />
+                    <include name="sloganValidationTest.*" />
+                    <include name="mainPageCheckElementsDefaultValuesSetTest.*" />
+                </methods>
+            </class>
+
+            <class name="com.qa25.trips.tests.HamburgerMenuTest">
+                <methods>
+                    <include name="hamburgerMenuItemsTest.*" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+</suite>
+

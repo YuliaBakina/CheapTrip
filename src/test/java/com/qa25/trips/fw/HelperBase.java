@@ -30,7 +30,7 @@ public class HelperBase {
 
     public void type(By locator, String text) {
         click(locator);
-        wd.findElement(locator).clear(); //- doesn't work for Login form
+        wd.findElement(locator).clear(); //
 
 /*        wd.findElement(locator).sendKeys(Keys.CONTROL + "a");
         wd.findElement(locator).sendKeys(Keys.DELETE);*/
@@ -41,9 +41,15 @@ public class HelperBase {
     }
 
     public void click(By locator){
-        wd.findElement(locator).click();
+        waitUntilElementIsClicable(locator).click();
+    //    wd.findElement(locator).click();
     }
 
+    public WebElement waitUntilElementIsClicable(By locator){
+        WebDriverWait wait = new WebDriverWait(wd, 20);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        return element;
+    }
 
     public void delay(int timeout) throws InterruptedException {
         Thread.sleep(timeout);

@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" verbose="1" >
+    <test name="MainPage" >
+        <classes>
+            <class name="com.qa25.trips.tests.MainPageTest">
+                <methods>
+
+                </methods>
+            </class>
+
+            <class name="com.qa25.trips.tests.HamburgerMenuTest">
+                <methods>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+</suite>
+

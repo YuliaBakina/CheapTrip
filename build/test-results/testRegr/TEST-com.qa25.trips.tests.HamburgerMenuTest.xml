@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.qa25.trips.tests.HamburgerMenuTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-14T17:24:27" hostname="JULIABOOK" time="4.386">
+  <properties/>
+  <testcase name="hamburgerMenuItemsTest" classname="com.qa25.trips.tests.HamburgerMenuTest" time="4.386"/>
+  <system-out><![CDATA[19:24:25.918 INFO  com.qa25.trips.tests.TestBase - Start test: hamburgerMenuItemsTest
+19:24:31.809 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+19:24:31.809 INFO  com.qa25.trips.tests.TestBase - Stop test: hamburgerMenuItemsTest
+19:24:31.809 INFO  com.qa25.trips.tests.TestBase - ======================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

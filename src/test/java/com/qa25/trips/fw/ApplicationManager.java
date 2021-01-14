@@ -15,8 +15,9 @@ public class ApplicationManager {
 
     EventFiringWebDriver wd;
     MainPage mainPage;
-//    SignFormHelper signForm;
-//    SideMenuHelper sideMenu;
+    HamburgerMenu hamburgerMenu;
+    ContactsPage contactsPage;
+
 
     String browser;
 
@@ -44,13 +45,13 @@ public class ApplicationManager {
         return mainPage;
     }
 
-/*     public SignFormHelper getSignForm(){
-        return signForm;
+    public HamburgerMenu getHamburgerMenu(){
+        return hamburgerMenu;
     }
 
-    public SideMenuHelper getSideMenu(){
-        return sideMenu;
-    }*/
+    public ContactsPage getContactsPage(){
+        return contactsPage;
+    }
 
     public void init() {
     //    wd = new EventFiringWebDriver(new ChromeDriver());
@@ -65,13 +66,13 @@ public class ApplicationManager {
 
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         wd.manage().window().maximize();
-        wd.manage().deleteAllCookies();
+//        wd.manage().deleteAllCookies();
 
         wd.get(baseURL);
 
        mainPage = new MainPage(wd);
-/*         signForm = new SignFormHelper(wd);
-        sideMenu = new SideMenuHelper(wd);*/
+       hamburgerMenu = new HamburgerMenu(wd);
+       contactsPage = new ContactsPage(wd);
 
     }
 
