@@ -1,9 +1,12 @@
 package com.qa25.trips.fw;
 
 import com.google.common.io.Files;
+import com.qa25.trips.tests.TestBase;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,6 +14,7 @@ import java.util.List;
 
 public class HelperBase {
     WebDriver wd;
+    Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     public HelperBase(WebDriver wd){
         this.wd = wd;
@@ -46,7 +50,7 @@ public class HelperBase {
     }
 
     public WebElement waitUntilElementIsClicable(By locator){
-        WebDriverWait wait = new WebDriverWait(wd, 20);
+        WebDriverWait wait = new WebDriverWait(wd, 10);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
         return element;
     }

@@ -10,6 +10,12 @@
                 </methods>
             </class>
 
+            <class name="com.qa25.trips.tests.SearchEngineTests">
+                <methods>
+                    <exclude name="fillFromFieldPositiveRegressionTest.*" />
+                    <exclude name="fillToFieldPositiveRegressionTest.*" />
+                </methods>
+            </class>
          </classes>
     </test>
 

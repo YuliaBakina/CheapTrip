@@ -1,0 +1,22 @@
+04:10:43 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveRegressionTest
+04:10:43 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Tehran]
+04:10:49 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:10:49 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveRegressionTest
+04:10:49 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:10:49 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveRegressionTest
+04:10:49 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Tashkent]
+04:10:54 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:10:54 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveRegressionTest
+04:10:54 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:10:54 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveRegressionTest
+04:10:54 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Sanaa]
+04:10:59 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:10:59 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveRegressionTest
+04:10:59 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:10:59 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveRegressionTest
+04:10:59 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Naypyidaw]
+04:11:05 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:11:05 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveRegressionTest
+04:11:05 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:11:05 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveRegressionTest
+04:11:05 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Muscat]

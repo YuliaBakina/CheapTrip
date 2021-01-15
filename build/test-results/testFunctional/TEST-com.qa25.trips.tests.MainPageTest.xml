@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.qa25.trips.tests.MainPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-14T17:23:04" hostname="JULIABOOK" time="2.285">
+<testsuite name="com.qa25.trips.tests.MainPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-15T02:12:55" hostname="JULIABOOK" time="2.268">
   <properties/>
-  <testcase name="changeLanguageValidationTest" classname="com.qa25.trips.tests.MainPageTest" time="2.285"/>
-  <system-out><![CDATA[19:23:04.507 INFO  com.qa25.trips.tests.TestBase - Start test: changeLanguageValidationTest
-19:23:06.798 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
-19:23:06.798 INFO  com.qa25.trips.tests.TestBase - Stop test: changeLanguageValidationTest
-19:23:06.798 INFO  com.qa25.trips.tests.TestBase - ======================================================
+  <testcase name="changeLanguageValidationTest" classname="com.qa25.trips.tests.MainPageTest" time="2.268"/>
+  <system-out><![CDATA[04:12:55.849 INFO  com.qa25.trips.tests.TestBase - Start test: changeLanguageValidationTest
+04:12:58.122 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:12:58.122 INFO  com.qa25.trips.tests.TestBase - Stop test: changeLanguageValidationTest
+04:12:58.122 INFO  com.qa25.trips.tests.TestBase - ======================================================
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.qa25.trips.tests.SearchEngineTests" tests="46" skipped="0" failures="0" errors="0" timestamp="2021-01-15T02:12:59" hostname="JULIABOOK" time="116.297">
+  <properties/>
+  <testcase name="fillFromFieldPositiveTest[0](City name: Tehran)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.494"/>
+  <testcase name="fillFromFieldPositiveTest[1](City name: Tashkent)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.332"/>
+  <testcase name="fillFromFieldPositiveTest[2](City name: Sanaa)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.311"/>
+  <testcase name="fillFromFieldPositiveTest[3](City name: Naypyidaw)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.281"/>
+  <testcase name="fillFromFieldPositiveTest[4](City name: Muscat)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.329"/>
+  <testcase name="fillFromFieldPositiveTest[5](City name: Manila)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.284"/>
+  <testcase name="fillFromFieldPositiveTest[6](City name: Male)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.291"/>
+  <testcase name="fillFromFieldPositiveTest[7](City name: Lhasa)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.268"/>
+  <testcase name="fillFromFieldPositiveTest[8](City name: Kathmandu)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.293"/>
+  <testcase name="fillFromFieldPositiveTest[9](City name: Kabul)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.264"/>
+  <testcase name="fillFromFieldPositiveTest[10](City name: Bandar Seri Begawan)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.756"/>
+  <testcase name="fillFromFieldPositiveTest[11](City name: Buenos Aires)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.419"/>
+  <testcase name="fillFromFieldPositiveTest[12](City name: Cluj-Napoca)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.447"/>
+  <testcase name="fillFromFieldPositiveTest[13](City name: Land's End)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.463"/>
+  <testcase name="fillFromFieldPositiveTest[14](City name: St. Catharines)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.384"/>
+  <testcase name="fillFromFieldPositiveTest[15](City name: St. John's)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.396"/>
+  <testcase name="fillToFieldPositiveTest[0](City name: Tehran)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.433"/>
+  <testcase name="fillToFieldPositiveTest[1](City name: Tashkent)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.262"/>
+  <testcase name="fillToFieldPositiveTest[2](City name: Sanaa)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.267"/>
+  <testcase name="fillToFieldPositiveTest[3](City name: Naypyidaw)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.26"/>
+  <testcase name="fillToFieldPositiveTest[4](City name: Muscat)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.298"/>
+  <testcase name="fillToFieldPositiveTest[5](City name: Manila)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.317"/>
+  <testcase name="fillToFieldPositiveTest[6](City name: Male)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.273"/>
+  <testcase name="fillToFieldPositiveTest[7](City name: Lhasa)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.276"/>
+  <testcase name="fillToFieldPositiveTest[8](City name: Kathmandu)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.321"/>
+  <testcase name="fillToFieldPositiveTest[9](City name: Kabul)" classname="com.qa25.trips.tests.SearchEngineTests" time="5.246"/>
+  <testcase name="fillToFieldPositiveTest[10](City name: Bandar Seri Begawan)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.417"/>
+  <testcase name="fillToFieldPositiveTest[11](City name: Buenos Aires)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.378"/>
+  <testcase name="fillToFieldPositiveTest[12](City name: Cluj-Napoca)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.381"/>
+  <testcase name="fillToFieldPositiveTest[13](City name: Land's End)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.4"/>
+  <testcase name="fillToFieldPositiveTest[14](City name: St. Catharines)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.399"/>
+  <testcase name="fillToFieldPositiveTest[15](City name: St. John's)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.413"/>
+  <testcase name="FillFromFieldNegativeTest[0](City name: РњРѕСЃРєРІР°)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.371"/>
+  <testcase name="FillFromFieldNegativeTest[1](City name: Ч ЧЄЧ Ч™Ч”)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.372"/>
+  <testcase name="FillFromFieldNegativeTest[2](City name: Paris@)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.306"/>
+  <testcase name="FillFromFieldNegativeTest[3](City name: #London)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.372"/>
+  <testcase name="FillFromFieldNegativeTest[4](City name: 123)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.297"/>
+  <testcase name="FillFromFieldNegativeTest[5](City name: *&amp;^)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.347"/>
+  <testcase name="FillFromFieldNegativeTest[6](City name: Pariz)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.348"/>
+  <testcase name="FillToFieldNegativeTest[0](City name: РњРѕСЃРєРІР°)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.368"/>
+  <testcase name="FillToFieldNegativeTest[1](City name: Ч ЧЄЧ Ч™Ч”)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.325"/>
+  <testcase name="FillToFieldNegativeTest[2](City name: Paris@)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.335"/>
+  <testcase name="FillToFieldNegativeTest[3](City name: #London)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.375"/>
+  <testcase name="FillToFieldNegativeTest[4](City name: 123)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.315"/>
+  <testcase name="FillToFieldNegativeTest[5](City name: *&amp;^)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.356"/>
+  <testcase name="FillToFieldNegativeTest[6](City name: Pariz)" classname="com.qa25.trips.tests.SearchEngineTests" time="0.35"/>
+  <system-out><![CDATA[04:12:59.660 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:12:59.660 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Tehran]
+04:13:05.155 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:05.159 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:05.159 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:05.159 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:05.160 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Tashkent]
+04:13:10.492 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:10.493 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:10.493 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:10.493 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:10.493 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Sanaa]
+04:13:15.804 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:15.805 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:15.805 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:15.805 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:15.805 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Naypyidaw]
+04:13:21.088 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:21.088 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:21.088 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:21.089 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:21.089 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Muscat]
+04:13:26.419 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:26.419 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:26.419 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:26.420 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:26.420 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Manila]
+04:13:31.705 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:31.706 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:31.706 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:31.707 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:31.707 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Male]
+04:13:37.000 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:37.000 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:37.000 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:37.000 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:37.001 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Lhasa]
+04:13:42.269 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:42.269 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:42.269 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:42.270 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:42.270 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Kathmandu]
+04:13:47.563 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:47.563 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:47.563 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:47.564 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:47.564 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Kabul]
+04:13:52.828 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:52.829 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:52.829 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:52.829 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:52.829 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Bandar Seri Begawan]
+04:13:53.398 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:13:53.398 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+04:13:53.587 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:53.589 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:53.590 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:53.592 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:53.593 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Buenos Aires]
+04:13:53.856 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:13:53.857 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+04:13:54.015 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:54.015 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:54.015 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:54.016 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:54.016 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Cluj-Napoca]
+04:13:54.275 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:13:54.275 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+04:13:54.465 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:54.466 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:54.466 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:54.466 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:54.466 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Land's End]
+04:13:54.756 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:13:54.757 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+04:13:54.930 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:54.930 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:54.930 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:54.931 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:54.931 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: St. Catharines]
+04:13:55.156 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:13:55.158 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+04:13:55.316 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:55.317 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:55.317 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:55.317 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+04:13:55.317 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: St. John's]
+04:13:55.546 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:13:55.546 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+04:13:55.714 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:13:55.714 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+04:13:55.714 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:13:55.716 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:13:55.716 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Tehran]
+04:14:01.149 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:01.149 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:01.149 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:01.150 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:01.150 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Tashkent]
+04:14:06.413 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:06.413 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:06.413 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:06.413 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:06.414 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Sanaa]
+04:14:11.682 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:11.682 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:11.682 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:11.683 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:11.683 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Naypyidaw]
+04:14:16.945 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:16.945 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:16.945 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:16.945 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:16.946 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Muscat]
+04:14:22.244 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:22.244 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:22.244 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:22.244 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:22.245 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Manila]
+04:14:27.562 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:27.563 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:27.563 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:27.564 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:27.564 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Male]
+04:14:32.838 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:32.838 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:32.838 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:32.839 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:32.839 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Lhasa]
+04:14:38.116 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:38.117 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:38.117 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:38.118 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:38.118 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Kathmandu]
+04:14:43.439 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:43.439 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:43.439 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:43.439 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:43.439 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Kabul]
+04:14:48.686 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:48.686 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:48.686 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:48.686 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:48.686 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Bandar Seri Begawan]
+04:14:48.925 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:48.926 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+04:14:49.104 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:49.104 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:49.104 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:49.105 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:49.105 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Buenos Aires]
+04:14:49.322 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:49.322 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+04:14:49.483 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:49.484 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:49.484 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:49.488 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:49.489 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Cluj-Napoca]
+04:14:49.706 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:49.707 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+04:14:49.872 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:49.872 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:49.872 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:49.872 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:49.872 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Land's End]
+04:14:50.083 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:50.083 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+04:14:50.273 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:50.273 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:50.273 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:50.274 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:50.274 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: St. Catharines]
+04:14:50.522 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:50.522 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+04:14:50.673 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:50.674 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:50.674 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:50.675 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+04:14:50.675 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: St. John's]
+04:14:50.921 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:50.921 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+04:14:51.089 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:51.089 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+04:14:51.089 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:51.091 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+04:14:51.091 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: РњРѕСЃРєРІР°]
+04:14:51.355 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:51.463 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:51.464 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+04:14:51.464 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:51.465 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+04:14:51.466 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Ч ЧЄЧ Ч™Ч”]
+04:14:51.724 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:51.838 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:51.839 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+04:14:51.839 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:51.839 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+04:14:51.839 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Paris@]
+04:14:52.048 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:52.146 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:52.146 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+04:14:52.146 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:52.147 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+04:14:52.148 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: #London]
+04:14:52.382 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:52.522 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:52.522 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+04:14:52.522 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:52.522 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+04:14:52.522 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: 123]
+04:14:52.707 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, the data we have accumulated is not enough to build a route between the indicated cities. Try changing your request.
+04:14:52.820 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:52.820 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+04:14:52.820 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:52.821 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+04:14:52.821 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: *&^]
+04:14:53.039 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:53.169 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:53.169 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+04:14:53.169 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:53.169 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+04:14:53.169 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Pariz]
+04:14:53.408 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, the data we have accumulated is not enough to build a route between the indicated cities. Try changing your request.
+04:14:53.518 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:53.518 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+04:14:53.518 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:53.520 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+04:14:53.520 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: РњРѕСЃРєРІР°]
+04:14:53.783 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:53.888 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:53.888 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+04:14:53.888 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:53.889 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+04:14:53.889 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Ч ЧЄЧ Ч™Ч”]
+04:14:54.102 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:54.216 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:54.217 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+04:14:54.217 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:54.217 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+04:14:54.217 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Paris@]
+04:14:54.437 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:54.552 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:54.552 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+04:14:54.552 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:54.553 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+04:14:54.553 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: #London]
+04:14:54.797 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:54.928 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:54.929 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+04:14:54.929 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:54.932 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+04:14:54.932 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: 123]
+04:14:55.137 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, the data we have accumulated is not enough to build a route between the indicated cities. Try changing your request.
+04:14:55.249 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:55.249 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+04:14:55.249 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:55.250 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+04:14:55.250 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: *&^]
+04:14:55.495 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+04:14:55.606 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:55.606 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+04:14:55.606 INFO  com.qa25.trips.tests.TestBase - ======================================================
+04:14:55.607 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+04:14:55.607 INFO  com.qa25.trips.tests.TestBase -  --> With data: [City name: Pariz]
+04:14:55.839 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, the data we have accumulated is not enough to build a route between the indicated cities. Try changing your request.
+04:14:55.958 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+04:14:55.958 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+04:14:55.958 INFO  com.qa25.trips.tests.TestBase - ======================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
