@@ -1,0 +1,407 @@
+21:15:25 INFO  com.qa25.trips.tests.TestBase - Start test: changeLanguageValidationTest
+21:15:28 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:15:28 INFO  com.qa25.trips.tests.TestBase - Stop test: changeLanguageValidationTest
+21:15:28 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:15:29 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:15:29 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Tehran, TO city: St. John's]
+21:15:35 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:15:35 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:15:35 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:15:35 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:15:35 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Tashkent, TO city: Buenos Aires]
+21:15:40 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:15:40 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:15:40 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:15:40 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:15:40 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Sanaa, TO city: St. Catharines]
+21:15:45 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:15:45 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:15:45 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:15:45 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:15:45 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Naypyidaw, TO city: Kabul]
+21:15:51 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:15:51 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:15:51 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:15:51 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:15:51 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Muscat, TO city: Kathmandu]
+21:15:56 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:15:56 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:15:56 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:15:56 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:15:56 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Manila, TO city: Naypyidaw]
+21:16:01 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:01 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:16:01 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:01 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:16:01 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Male, TO city: Land's End]
+21:16:07 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:07 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:16:07 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:07 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:16:07 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Lhasa, TO city: Sanaa]
+21:16:12 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:12 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:16:12 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:12 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:16:12 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Kathmandu, TO city: Tashkent]
+21:16:17 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:17 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:16:17 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:17 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:16:17 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Kabul, TO city: Tehran]
+21:16:23 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:23 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:16:23 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:23 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:16:23 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Bandar Seri Begawan, TO city: Manila]
+21:16:23 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:16:23 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:16:24 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:24 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:16:24 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:24 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:16:24 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Buenos Aires, TO city: Cluj-Napoca]
+21:16:24 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:16:24 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:16:24 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:24 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:16:24 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:24 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:16:24 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Cluj-Napoca, TO city: Muscat]
+21:16:24 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:16:24 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:16:24 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:24 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:16:24 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:24 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:16:24 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Land's End, TO city: Male]
+21:16:25 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:16:25 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:16:25 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:25 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:16:25 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:25 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:16:25 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: St. Catharines, TO city: Lhasa]
+21:16:25 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:16:25 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:16:26 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:26 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:16:26 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:26 INFO  com.qa25.trips.tests.TestBase - Start test: fillFromFieldPositiveTest
+21:16:26 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: St. John's, TO city: Bandar Seri Begawan]
+21:16:26 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:16:26 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:16:26 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:26 INFO  com.qa25.trips.tests.TestBase - Stop test: fillFromFieldPositiveTest
+21:16:26 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:26 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:16:26 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Tehran, TO city: St. John's]
+21:16:26 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:16:26 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:16:27 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:27 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:16:27 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:27 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:16:27 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Tashkent, TO city: Buenos Aires]
+21:16:27 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:16:27 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:16:27 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:27 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:16:27 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:27 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:16:27 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Sanaa, TO city: St. Catharines]
+21:16:27 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:16:27 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:16:28 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:28 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:16:28 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:28 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:16:28 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Naypyidaw, TO city: Kabul]
+21:16:33 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:33 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:16:33 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:33 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:16:33 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Muscat, TO city: Kathmandu]
+21:16:38 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:38 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:16:38 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:38 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:16:38 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Manila, TO city: Naypyidaw]
+21:16:44 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:44 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:16:44 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:44 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:16:44 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Male, TO city: Land's End]
+21:16:44 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:16:44 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:16:44 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:44 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:16:44 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:44 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:16:44 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Lhasa, TO city: Sanaa]
+21:16:49 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:49 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:16:49 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:49 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:16:49 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Kathmandu, TO city: Tashkent]
+21:16:55 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:16:55 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:16:55 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:16:55 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:16:55 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Kabul, TO city: Tehran]
+21:17:00 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:00 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:17:00 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:00 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:17:00 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Bandar Seri Begawan, TO city: Manila]
+21:17:05 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:05 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:17:05 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:05 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:17:05 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Buenos Aires, TO city: Cluj-Napoca]
+21:17:06 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:06 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:17:06 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:06 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:17:06 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:06 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:17:06 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Cluj-Napoca, TO city: Muscat]
+21:17:11 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:11 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:17:11 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:11 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:17:11 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Land's End, TO city: Male]
+21:17:16 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:16 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:17:16 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:16 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:17:16 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: St. Catharines, TO city: Lhasa]
+21:17:22 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:22 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:17:22 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:22 INFO  com.qa25.trips.tests.TestBase - Start test: fillToFieldPositiveTest
+21:17:22 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: St. John's, TO city: Bandar Seri Begawan]
+21:17:22 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:22 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:17:22 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:22 INFO  com.qa25.trips.tests.TestBase - Stop test: fillToFieldPositiveTest
+21:17:22 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:22 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+21:17:22 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Москва, TO city: Pariz]
+21:17:22 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:23 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:23 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+21:17:23 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:23 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+21:17:23 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: נתניה, TO city: מסקבה]
+21:17:23 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:23 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:23 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+21:17:23 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:23 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+21:17:23 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Paris@, TO city: 123]
+21:17:23 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:23 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:23 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+21:17:23 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:23 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+21:17:23 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: #London, TO city: *&^]
+21:17:24 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:24 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:24 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+21:17:24 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:24 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+21:17:24 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: 123, TO city: Москва]
+21:17:24 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, the data we have accumulated is not enough to build a route between the indicated cities. Try changing your request.
+21:17:24 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:24 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+21:17:24 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:24 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+21:17:24 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: *&^, TO city: Paris@]
+21:17:24 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:24 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:24 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+21:17:24 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:24 INFO  com.qa25.trips.tests.TestBase - Start test: FillFromFieldNegativeTest
+21:17:24 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Pariz, TO city: #London]
+21:17:25 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, the data we have accumulated is not enough to build a route between the indicated cities. Try changing your request.
+21:17:25 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:25 INFO  com.qa25.trips.tests.TestBase - Stop test: FillFromFieldNegativeTest
+21:17:25 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:25 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+21:17:25 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Москва, TO city: Pariz]
+21:17:25 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, the data we have accumulated is not enough to build a route between the indicated cities. Try changing your request.
+21:17:25 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:25 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+21:17:25 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:25 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+21:17:25 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: נתניה, TO city: מסקבה]
+21:17:25 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:25 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:25 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+21:17:25 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:25 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+21:17:25 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Paris@, TO city: 123]
+21:17:26 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, the data we have accumulated is not enough to build a route between the indicated cities. Try changing your request.
+21:17:26 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:26 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+21:17:26 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:26 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+21:17:26 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: #London, TO city: *&^]
+21:17:26 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:26 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:26 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+21:17:26 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:26 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+21:17:26 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: 123, TO city: Москва]
+21:17:26 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:26 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:26 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+21:17:26 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:26 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+21:17:26 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: *&^, TO city: Paris@]
+21:17:27 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:27 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:27 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+21:17:27 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:27 INFO  com.qa25.trips.tests.TestBase - Start test: FillToFieldNegativeTest
+21:17:27 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Pariz, TO city: #London]
+21:17:27 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:27 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:27 INFO  com.qa25.trips.tests.TestBase - Stop test: FillToFieldNegativeTest
+21:17:27 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:27 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:17:27 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Tehran, TO city: St. John's]
+21:17:33 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:33 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:17:33 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:33 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:17:33 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:33 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:17:33 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Tashkent, TO city: Buenos Aires]
+21:17:38 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:38 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:17:39 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:39 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:17:39 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:39 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:17:39 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Sanaa, TO city: St. Catharines]
+21:17:44 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:17:44 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:17:44 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:44 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:17:44 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:44 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:17:44 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Naypyidaw, TO city: Kabul]
+21:17:55 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:17:55 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:17:55 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:17:55 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:17:55 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Muscat, TO city: Kathmandu]
+21:18:06 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:18:06 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:18:06 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:18:06 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:18:06 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Manila, TO city: Naypyidaw]
+21:18:16 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:18:16 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:18:16 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:18:16 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:18:16 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Male, TO city: Land's End]
+21:18:22 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:18:22 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:18:22 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:18:22 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:18:22 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:18:22 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:18:22 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Lhasa, TO city: Sanaa]
+21:18:33 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:18:33 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:18:33 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:18:33 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:18:33 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Kathmandu, TO city: Tashkent]
+21:18:43 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:18:43 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:18:43 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:18:43 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:18:43 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Kabul, TO city: Tehran]
+21:18:54 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:18:54 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:18:54 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:18:54 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:18:54 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Bandar Seri Begawan, TO city: Manila]
+21:18:54 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:18:54 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:19:00 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:19:00 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:19:00 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:19:00 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:19:00 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Buenos Aires, TO city: Cluj-Napoca]
+21:19:00 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:19:00 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:19:00 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:19:00 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:19:01 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:19:01 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:19:01 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:19:01 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:19:01 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Cluj-Napoca, TO city: Muscat]
+21:19:01 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:19:01 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:19:06 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:19:06 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:19:06 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:19:06 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:19:06 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Land's End, TO city: Male]
+21:19:07 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:19:07 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:19:12 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:19:12 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:19:12 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:19:12 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:19:12 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: St. Catharines, TO city: Lhasa]
+21:19:12 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:19:12 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:19:18 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:19:18 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:19:18 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:19:18 INFO  com.qa25.trips.tests.TestBase - Start test: clearButtonPositiveTest
+21:19:18 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: St. John's, TO city: Bandar Seri Begawan]
+21:19:18 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:19:18 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:19:19 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:19:19 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:19:19 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:19:19 INFO  com.qa25.trips.tests.TestBase - Stop test: clearButtonPositiveTest
+21:19:19 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:19:19 INFO  com.qa25.trips.tests.TestBase - Start test: goButtonNegativeTest
+21:19:19 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: New Orleans, TO city: Barcelona]
+21:19:19 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:19:19 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:19:25 INFO  com.qa25.trips.tests.TestBase - --> For this route error message is: Sorry, the data we have accumulated is not enough to build a route between the indicated cities. Try changing your request.
+21:19:25 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:19:25 INFO  com.qa25.trips.tests.TestBase - Stop test: goButtonNegativeTest
+21:19:25 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:19:25 INFO  com.qa25.trips.tests.TestBase - Start test: goButtonNegativeTest
+21:19:25 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Moscow, TO city: Moscow]
+21:19:36 INFO  com.qa25.trips.tests.TestBase - --> For this route error message is: Sorry, the data we have accumulated is not enough to build a route between the indicated cities. Try changing your request.
+21:19:36 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:19:36 INFO  com.qa25.trips.tests.TestBase - Stop test: goButtonNegativeTest
+21:19:36 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:19:36 INFO  com.qa25.trips.tests.TestBase - Start test: goButtonPositiveTest
+21:19:36 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Paris, TO city: Prague]
+21:19:49 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:19:49 INFO  com.qa25.trips.tests.TestBase - Stop test: goButtonPositiveTest
+21:19:49 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:19:49 INFO  com.qa25.trips.tests.TestBase - Start test: goButtonPositiveTest
+21:19:49 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Barcelona, TO city: Glasgow]
+21:20:01 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:20:01 INFO  com.qa25.trips.tests.TestBase - Stop test: goButtonPositiveTest
+21:20:01 INFO  com.qa25.trips.tests.TestBase - ======================================================
+21:20:01 INFO  com.qa25.trips.tests.TestBase - Start test: goButtonPositiveTest
+21:20:01 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Moscow, TO city: Tel-Aviv]
+21:20:07 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+21:20:07 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+21:20:08 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+21:20:08 INFO  com.qa25.trips.tests.TestBase - Stop test: goButtonPositiveTest
+21:20:08 INFO  com.qa25.trips.tests.TestBase - ======================================================

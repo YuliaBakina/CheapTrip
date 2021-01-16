@@ -1,16 +1,16 @@
-Tehran
-Tashkent
-Sanaa
-Naypyidaw
-Muscat
-Manila
-Male
-Lhasa
-Kathmandu
-Kabul
-Bandar Seri Begawan
-Buenos Aires
-Cluj-Napoca
-Land's End
-St. Catharines
-St. John's
+Tehran;St. John's
+Tashkent;Buenos Aires
+Sanaa;St. Catharines
+Naypyidaw;Kabul
+Muscat;Kathmandu
+Manila;Naypyidaw
+Male;Land's End
+Lhasa;Sanaa
+Kathmandu;Tashkent
+Kabul;Tehran
+Bandar Seri Begawan;Manila
+Buenos Aires;Cluj-Napoca
+Cluj-Napoca;Muscat
+Land's End;Male
+St. Catharines;Lhasa
+St. John's;Bandar Seri Begawan

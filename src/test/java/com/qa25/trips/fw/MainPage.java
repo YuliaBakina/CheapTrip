@@ -82,17 +82,8 @@ public class MainPage extends HelperBase{
         return isElementPresent(By.xpath("//ion-button[1]"));
     }
 
-    public void clickClearButton() {
-        click(By.xpath("//ion-button[1]"));
-    }
-
     public boolean ifGoButtonPresented() {
         return isElementPresent(By.xpath("//ion-button[2]"));
-    }
-
-    public void clickGoButton() {
-        System.out.println("clickGoButton");
-        click(By.xpath("//ion-button[2]"));
     }
 
     public boolean ifSearchIconPresented() {

@@ -15,6 +15,12 @@
                 </methods>
             </class>
 
+            <class name="com.qa25.trips.tests.SearchEngineTests">
+                <methods>
+
+                </methods>
+            </class>
+
         </classes>
     </test>
 

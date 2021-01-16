@@ -8,8 +8,9 @@ public class MainPageTest extends TestBase{
 
     @BeforeTest
     public void insurePreconditions(){
-        //appManager.getMainPage().isMainPageOpened(appManager.getBaseURL());
-        appManager.getMainPage().opeMainPage(appManager.getBaseURL());
+        appManager.getMainPage().isMainPageOpened(appManager.getBaseURL());
+
+       // appManager.getMainPage().opeMainPage(appManager.getBaseURL());
     }
 
 

@@ -18,6 +18,7 @@ public class ApplicationManager {
     HamburgerMenu hamburgerMenu;
     ContactsPage contactsPage;
     SearchPage searchPage;
+    RoutesPage routesPage;
 
 
     String browser;
@@ -58,6 +59,8 @@ public class ApplicationManager {
         return searchPage;
     }
 
+    public RoutesPage getRoutesPage(){return routesPage;}
+
     public void init() {
     //    wd = new EventFiringWebDriver(new ChromeDriver());
 
@@ -79,6 +82,7 @@ public class ApplicationManager {
        hamburgerMenu = new HamburgerMenu(wd);
        contactsPage = new ContactsPage(wd);
        searchPage = new SearchPage(wd);
+       routesPage = new RoutesPage(wd);
 
     }
 

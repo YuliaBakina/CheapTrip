@@ -1,663 +1,775 @@
-Tehran
-Tashkent
-Sanaa
-Naypyidaw
-Muscat
-Manila
-Male
-Lhasa
-Kathmandu
-Kabul
-Islamabad
-Dushanbe
-Doha
-Dhaka
-Colombo
-Bishkek
-Beirut
-Baghdad
-Astana
-Ashgabat
-Amman
-Manama
-Tbilisi
-Baku
-Yerevan
-Honolulu
-Orlando
-Miami
-Johannesburg
-Dammam
-Riyadh
-Lima
-Cancun
-Fukuoka
-Chiba
-Kyoto
-Osaka
-Jerusalem
-Batam
-Kolkatta
-Jaipur
-Chennai
-Hurgada
-Beijing
-Zhuhai
-Guilin
-Vancouver
-Toronto
-Bangalore
-Krabi
-Jeju
-Auckland
-Cebu
-Sydney
-Melbourne
-Marrakech
-Jakarta
-Cairo
-Denpasar
-Shanghai
-Seoul
-Medina
-Guangzhou
-Mecca
-Taipei
-Pattaya
-Tokyo
-Phuket
-Mumbai
-Shenzhen
-Delhi
-Dubai
-Singapore
-Macau
-Bangkok
-Antwerp
-Aberdeen
-Augsburg
-Alexandroupolis
-Athens
-Alicante
-Almeria
-Aalborg
-Aarhus
-Ancona
-Aosta
-Amsterdam
-Alanya
-Ankara
-Antalya
-Altenrhein
-Brussels
-Burgas
-Belfast
-Birmingham
-Bournemouth
-Bristol
-Budapest
-Berlin
-Bremen
-Billund
-Barcelona
-Bilbao
-Bologna
-Bergen
-Bodo
-Bydgoszcz
-Bucharest
-Belgrade
-Bratislava
-Bordeaux
-Brno
-Basel
-Bern
-Cardiff
-Cambridge
-Coventry
-Cologne
-Corfu
-Copenhagen
-Cordoba
-Cork
-Cagliari
-Catania
-Cherbourg
-Durham
-Doncaster
-Dortmund
-Dresden
-Duesseldorf
-Dublin
-Dalaman
-Dubrovnik
-Edinburgh
-Exeter
-Erfurt
-Esbjerg
-Eilat
-Eindhoven
-Frankfurt
-Friedrichshafen
-Fuerteventura
-Florence
-Floro
-Faro
-Funchal
-Graz
-Guernsey
-Glasgow
-Gloucestershire
-Granada
-Girona
-Galway
-Genoa
-Groningen
-Gdansk
-Geneva
-Gothenburg
-Humberside
-Heviz
-Hamburg
-Hannover
-Heringsdorf
-Plauen
-Heraklion
-Helsinki
-Innsbruck
-Inverness
-Debrecen
-Ibiza
-Izmir
-Istanbul
-Jonkoping
-Klagenfurt
-Karlsruhe
-Kortrijk
-Kaunas
-Katowice
-Krakow
-Kosice
-Karlstad
-Kuressaare
-Linz
-Liege
-Liverpool
-Lydd
-Leeds
-London
-Luebeck
-Lanzarote
-Larnaca
-Liepaja
-Luxembourg
-Lelystad
-Lisbon
-Ljubljana
-Lappeenranta
-Lille
-Lyon
-Lugano
-Lulea
-Manchester
-Mannheim
-Memmingen
-Muenster
-Munich
-Madrid
-Malaga
-Mahon
-Murcia
-Milan
-Malta
-Maastricht
-Moss
-Milas
-Mariehamn
-Marseille
-Metz
-Montpellier
-Malmo
-Norwich
-Newcastle
-Newquay
-Nuremberg
-Naples
-Constanta
-Nantes
-Nice
-Norrkoping
-Ostend
-Alderney
-Oviedo
-Olbia
-Ohrid
-Oslo
-Osijek
-Ostrava
-Plovdiv
-Plymouth
-Paderborn
-Rostock
-Palermo
-Pescara
-Pisa
-Paphos
-Palanga
-Porto
-Poprad
-Paris
-Pula
-Podgorica
-Pardubice
-Prague
-Parnu
-Rhodes
-Reykjavik
-Reus
-Rijeka
-Rome
-Rimini
-Riga
-Rotterdam
-Ronneby
-Salzburg
-Sofia
-Sarajevo
-Southampton
-Swansea
-Shoreham
-Poznan
-Saarbruecken
-Stuttgart
-Santorini
-Shannon
-Salamanca
-Sevilla
-Siauliai
-Skopje
-Sandefjord
-Stavanger
-Strasbourg
-Split
-Sion
-Stockholm
-Tirana
-Thessaloniki
-Tenerife
-Treviso
-Trieste
-Turin
-Timisoara
-Trabzon
-Tampere
-Turku
-Toulouse
-Tivat
-Trollhattan
-Tallinn
-Tartu
-Umea
-Vienna
-Varna
-Volos
-Valencia
-Valladolid
-Venice
-Verona
-Ventspils
-Vilnius
-Iasi
-Vaxjo
-Visby
-Wangerooge
-Weeze
-Westerland
-Wilhelmshaven
-Warsaw
-Wroclaw
-Zweibruecken
-Zaragoza
-Zagreb
-Zadar
-Zurich
-Chisinau
-Minsk
-Gomel
-Brest
-Vitebsk
-Hrodna
-Kiev
-Kherson
-Chernivtsi
-Odesa
-Zaporizhia
-Vinnytsia
-Lviv
-Dnipro
-Kharkiv
-Moscow
-Sochi
-Novosibirsk
-Ekaterinburg
-Krasnodar
-Anapa
-Kaliningrad
-Platov
-Samara
-Irkutsk
-Krasnoyarsk
-Ufa
-Kazan
-Tyumen
-Khabarovsk
-Surgut
-Vladivostok
-Yakutsk
-Perm
-Chelyabinsk
-Murmansk
-Volgograd
-Arkhangelsk
-Omsk
-Makhachkala
-Gelendzik
-Tomsk
-Nizhnevartovsk
-Orenburg
-Voronezh
-Syktyvkar
-Barnaul
-Astrakhan
-Norilsk
-Belgorod
-Salehard
-Chita
-Izhevsk
-Saratov
-Stavropol
-Magadan
-Kemerovo
-Abakan
-Grozny
-Novokuzinetsk
-Vladikavkaz
-Ulyanovsk
-Nojabrxsk
-Penza
-Saransk
-Nadym
-Magnitogorsk
-Cheboksary
-Blagoveschensk
-Nalchik
-Cherepovets
-Magas
-Kirov
-Bratsk
-Elista
-Talakan
-Tambov
-Vorkuta
-Neryungri
-Ivanovo
-Anadyr
-Kursk
-Kogalym
-Kurgan
-Petrozavodsk
-Orsk
-Kaluga
-Okha
-Briansk
-Strzhewoi
-Kyzyl
-Tiksi
-Yaroslavl
-Pevek
-Solovetsky
-Aldan
-Mirny
-Beloyarsky
-Bodaybo
-Usinsk
-Nyagan
-Lensk
-Batagay
-Uraj
-Berezovo
-Bugulma
-Olyokminsk
-Mendeleyevo
-Srednekolymsk
-Lipetsk
-Nyurba
-Zyryanka
-Iturup
-Kirensk
-Keperveyem
-Deputatsky
-Turukhansk
-Saskylakh
-Terney
-Olenyok
-Cherskiy
-Kavalerovo
-Igarka
-Igrim
-Hatanga
-Dalnegorsk
-Nogliki
-Chokurdah
-Yerbogachen
-Tynda
-Preobrazheniye
-Zhigansk
-Dikson
-Verkhnevilyuysk
-Vilyuysk
-Dalnerechensk
-Svetlaya
-Bogorodskoye
-Plastun
-Kotlas
-Amgu
-Yedinka
-Ukhta
-Shakhtyorsk
-Suntar
-Pristina
-Thimphu
-Ulaanbaatar
-Vientiane
-Agartala
-Agraя
-Ahmedabadя
-Aizawlя
-Allahabadя
-Amritsarя
-Aurangabadя
-Bagdograя
-Belgaumя
-Bhavnagarя
-Bhopalя
-Bhubaneswarя
-Bhujя
-Bikanerя
-Chandigarhя
-Coimbatoreя
-Dehradunя
-Dharamsalaя
-Dibrugarhя
-Dimapurя
-Diuя
-Gayaя
-Chicalim
-Gorakhpurя
-Guwahatiя
-Gwaliorя
-Hubliя
-Imphalя
-Indoreя
-Jabalpurя
-Jaisalmerя
-Jalgaonя
-Jammuя
-Jamnagarя
-Jodhpurя
-Jorhatя
-Kadapaя
-Kandlaя
-Kanpurя
-Khajurahoя
-Kolhapurя
-Kozhikodeя
-Kuluя
-Lehя
-Lucknowя
-Ludhianaя
-Maduraiя
-Mangaloreя
-Mysoreя
-Nagpurя
-Nandedя
-Nasikя
-Pantnagarя
-Pasighatя
-Patnaя
-Porbandarя
-Puducherryя
-Puneя
-Raipurя
-Rajahmundryя
-Rajkotя
-Ranchiя
-Shillongя
-Shimlaя
-Shirdiя
-Silcharя
-Srinagarя
-Suratя
-Tezpurя
-Thiruvananthapuramя
-Tiruchirapalliя
-Tirupatiя
-Tuticorinя
-Udaipurя
-Vadodaraя
-Varanasiя
-Vidyanagarя
-Vijayawadaя
-Visakhapatnamя
-Phitsanulokя
-Trangя
-Lampangя
-Ranongя
-Chumphonя
-Loeiя
-Narathiwatя
-Tratя
-Phraeя
-Sukhothaiя
-Pai
-Chicago
-Houston
-Phoenix
-Philadelphia
-Dallas
-Austin
-Jacksonville
-Columbus
-Charlotte
-Indianapolis
-Seattle
-Denver
-Washington
-Boston
-Nashville
-Detroit
-Portland
-Memphis
-Louisville
-Baltimore
-Milwaukee
-Albuquerque
-Tucson
-Fresno
-Mesa
-Atlanta
-Sacramento
-Raleigh
-Omaha
-Minneapolis
-Oakland
-Tampa
-Arlington
-Tulsa
-Bakersfield
-Wichita
-Aurora
-Cleveland
-Anaheim
-Riverside
-Henderson
-Lexington
-Stockton
-Cincinnati
-Irvine
-Greensboro
-Pittsburgh
-Lincoln
-Plano
-Anchorage
-Newark
-Durham
-Toledo
-Chandler
-Laredo
-Madison
-Scottsdale
-Lubbock
-Reno
-Gilbert
-Buffalo
-Glendale
-Chesapeake
-Garland
-Irving
-Hialeah
-Norfolk
-Fremont
-Boise
-Paradise
-Richmond
-Arlington
-Spokane
-Tacoma
-Modesto
-Fontana
-Frisco
-Oxnard
-Birmingham
-McKinney
-Fayetteville
-Glendale
-Rochester
-Charleston
-Sedona
-Branson
-Montreal
-Calgary
-Edmonton
-Ottawa
-Winnipeg
-Hamilton
-Kitchener
-London
-Victoria
-Halifax
-Oshawa
-Windsor
-Saskatoon
-Regina
-Kelowna
+Tehran;Tashkent
+Tashkent;Sanaa
+Sanaa;Phnom Penh
+Phnom Penh;Naypyidaw
+Naypyidaw;Muscat
+Muscat;Manila
+Manila;Male
+Male;Lhasa
+Lhasa;Kuwait City
+Kuwait City;Kathmandu
+Kathmandu;Kabul
+Kabul;Islamabad
+Islamabad;Dushanbe
+Dushanbe;Doha
+Doha;Dhaka
+Dhaka;Colombo
+Colombo;Bishkek
+Bishkek;Beirut
+Beirut;Bandar Seri Begawan
+Bandar Seri Begawan;Baghdad
+Baghdad;Astana
+Astana;Ashgabat
+Ashgabat;Amman
+Amman;Manama
+Manama;Tbilisi
+Tbilisi;Baku
+Baku;Yerevan
+Yerevan;Honolulu
+Honolulu;San Francisco
+San Francisco;Orlando
+Orlando;Las Vegas
+Las Vegas;Los Angeles
+Los Angeles;Miami
+Miami;New York
+New York;Johannesburg
+Johannesburg;Dammam
+Dammam;Riyadh
+Riyadh;Lima
+Lima;Cancun
+Cancun;Fukuoka
+Fukuoka;Chiba
+Chiba;Kyoto
+Kyoto;Osaka
+Osaka;Jerusalem
+Jerusalem;Batam
+Batam;Kolkatta
+Kolkatta;Jaipur
+Jaipur;Chennai
+Chennai;Hurgada
+Hurgada;Beijing
+Beijing;Zhuhai
+Zhuhai;Guilin
+Guilin;Vancouver
+Vancouver;Toronto
+Toronto;Rio de Janeiro
+Rio de Janeiro;Buenos Aires
+Buenos Aires;Bangalore
+Bangalore;Krabi
+Krabi;Jeju
+Jeju;Abu Dhabi
+Abu Dhabi;Auckland
+Auckland;Cebu
+Cebu;Sydney
+Sydney;Melbourne
+Melbourne;Marrakech
+Marrakech;Penang Island
+Penang Island;Jakarta
+Jakarta;Ha Noi
+Ha Noi;Cairo
+Cairo;Johor Bahru
+Johor Bahru;Denpasar
+Denpasar;Ho Chi Minh
+Ho Chi Minh;Shanghai
+Shanghai;Seoul
+Seoul;Medina
+Medina;Guangzhou
+Guangzhou;Mecca
+Mecca;Taipei
+Taipei;Pattaya
+Pattaya;Tokyo
+Tokyo;Phuket
+Phuket;Mumbai
+Mumbai;Shenzhen
+Shenzhen;Delhi
+Delhi;Kuala Lumpur
+Kuala Lumpur;Dubai
+Dubai;Singapore
+Singapore;Macau
+Macau;Bangkok
+Bangkok;Hong Kong
+Hong Kong;Antwerp
+Antwerp;Aberdeen
+Aberdeen;Augsburg
+Augsburg;Alexandroupolis
+Alexandroupolis;Athens
+Athens;Alicante
+Alicante;Almeria
+Almeria;Aalborg
+Aalborg;Aarhus
+Aarhus;Ancona
+Ancona;Aosta
+Aosta;Amsterdam
+Amsterdam;Alanya
+Alanya;Ankara
+Ankara;Antalya
+Antalya;Altenrhein
+Altenrhein;Brussels
+Brussels;Burgas
+Burgas;Banja Luka
+Banja Luka;Belfast
+Belfast;Birmingham
+Birmingham;Bournemouth
+Bournemouth;Bristol
+Bristol;Budapest
+Budapest;Berlin
+Berlin;Bremen
+Bremen;Billund
+Billund;Barcelona
+Barcelona;Bilbao
+Bilbao;Bologna
+Bologna;Bergen
+Bergen;Bodo
+Bodo;Bydgoszcz
+Bydgoszcz;Bucharest
+Bucharest;Belgrade
+Belgrade;Bratislava
+Bratislava;Bordeaux
+Bordeaux;Brno
+Brno;Basel
+Basel;Bern
+Bern;Cardiff
+Cardiff;Cambridge
+Cambridge;Coventry
+Coventry;Cologne
+Cologne;Corfu
+Corfu;Copenhagen
+Copenhagen;Cordoba
+Cordoba;Cork
+Cork;Cagliari
+Cagliari;Catania
+Catania;Cluj-Napoca
+Cluj-Napoca;Clermont-Ferrand
+Clermont-Ferrand;Chambery-Savoie
+Chambery-Savoie;Cherbourg
+Cherbourg;Durham
+Durham;Doncaster
+Doncaster;Dortmund
+Dortmund;Dresden
+Dresden;Duesseldorf
+Duesseldorf;Dublin
+Dublin;Dalaman
+Dalaman;Dubrovnik
+Dubrovnik;East Midlands
+East Midlands;Edinburgh
+Edinburgh;Exeter
+Exeter;Erfurt
+Erfurt;Esbjerg
+Esbjerg;Eilat
+Eilat;Eindhoven
+Eindhoven;Frankfurt
+Frankfurt;Friedrichshafen
+Friedrichshafen;Fuerteventura
+Fuerteventura;Florence
+Florence;Floro
+Floro;Faro
+Faro;Funchal
+Funchal;Graz
+Graz;Gorna Oryahovitsa
+Gorna Oryahovitsa;Guernsey
+Guernsey;Glasgow
+Glasgow;Gloucestershire
+Gloucestershire;Granada
+Granada;Girona
+Girona;Galway
+Galway;Genoa
+Genoa;Groningen
+Groningen;Gdansk
+Gdansk;Geneva
+Geneva;Gothenburg
+Gothenburg;Humberside
+Humberside;Heviz
+Heviz;Hamburg
+Hamburg;Hannover
+Hannover;Heringsdorf
+Heringsdorf;Plauen
+Plauen;Heraklion
+Heraklion;Helsinki
+Helsinki;Innsbruck
+Innsbruck;Inverness
+Inverness;Debrecen
+Debrecen;Ibiza
+Ibiza;Izmir
+Izmir;Istanbul
+Istanbul;Jonkoping
+Jonkoping;Klagenfurt
+Klagenfurt;Karlsruhe
+Karlsruhe;Kortrijk
+Kortrijk;Kaunas
+Kaunas;Katowice
+Katowice;Krakow
+Krakow;Kosice
+Kosice;Karlovy Vary
+Karlovy Vary;Karlstad
+Karlstad;Kuressaare
+Kuressaare;Linz
+Linz;Liege
+Liege;Land's End
+Land's End;Liverpool
+Liverpool;Lydd
+Lydd;Leeds
+Leeds;London
+London;Luebeck
+Luebeck;Lanzarote
+Lanzarote;Las Palmas de Gran Canaria
+Las Palmas de Gran Canaria;Lleida-Alguaire
+Lleida-Alguaire;Lamezia Terme
+Lamezia Terme;Larnaca
+Larnaca;Liepaja
+Liepaja;Luxembourg
+Luxembourg;Lelystad
+Lelystad;Lisbon
+Lisbon;Ljubljana
+Ljubljana;Lappeenranta
+Lappeenranta;Le Touquet
+Le Touquet;Lille
+Lille;Lyon
+Lyon;Lugano
+Lugano;Lulea
+Lulea;Manchester
+Manchester;Mannheim
+Mannheim;Memmingen
+Memmingen;Muenster
+Muenster;Munich
+Munich;Madrid
+Madrid;Malaga
+Malaga;Mahon
+Mahon;Murcia
+Murcia;Milan
+Milan;Malta
+Malta;Monte Carlo
+Monte Carlo;Maastricht
+Maastricht;Moss
+Moss;Milas
+Milas;Mariehamn
+Mariehamn;Marseille
+Marseille;Metz
+Metz;Montpellier
+Montpellier;Malmo
+Malmo;Norwich
+Norwich;Newcastle
+Newcastle;Newquay
+Newquay;Nuremberg
+Nuremberg;Naples
+Naples;Constanta
+Constanta;Nantes
+Nantes;Nice
+Nice;Norrkoping
+Norrkoping;Ostend
+Ostend;Alderney
+Alderney;Oviedo
+Oviedo;Olbia
+Olbia;Ohrid
+Ohrid;Oslo
+Oslo;Osijek
+Osijek;Ostrava
+Ostrava;Plovdiv
+Plovdiv;Plymouth
+Plymouth;Paderborn
+Paderborn;Rostock
+Rostock;Palma Majorca
+Palma Majorca;Palermo
+Palermo;Pescara
+Pescara;Pisa
+Pisa;Paphos
+Paphos;Palanga
+Palanga;Ponta Delgada
+Ponta Delgada;Porto
+Porto;Poprad
+Poprad;Paris
+Paris;Pula
+Pula;Podgorica
+Podgorica;Pardubice
+Pardubice;Prague
+Prague;Parnu
+Parnu;Rhodes
+Rhodes;Reykjavik
+Reykjavik;Reus
+Reus;Rijeka
+Rijeka;Rome
+Rome;Rimini
+Rimini;Riga
+Riga;Rotterdam
+Rotterdam;Ronneby
+Ronneby;Salzburg
+Salzburg;Sofia
+Sofia;Sarajevo
+Sarajevo;Southampton
+Southampton;Swansea
+Swansea;Shoreham
+Shoreham;Poznan
+Poznan;Saarbruecken
+Saarbruecken;Stuttgart
+Stuttgart;Santorini
+Santorini;Shannon
+Shannon;Salamanca
+Salamanca;Santiago de Compostela
+Santiago de Compostela;Sevilla
+Sevilla;Siauliai
+Siauliai;Skopje
+Skopje;Sandefjord
+Sandefjord;Stavanger
+Stavanger;Strasbourg
+Strasbourg;Split
+Split;Sion
+Sion;Stockholm
+Stockholm;Tirana
+Tirana;Thessaloniki
+Thessaloniki;Tenerife
+Tenerife;Treviso
+Treviso;Trieste
+Trieste;Turin
+Turin;Tel-Aviv
+Tel-Aviv;Terceira Island
+Terceira Island;Timisoara
+Timisoara;Trabzon
+Trabzon;Tampere
+Tampere;Turku
+Turku;Toulouse
+Toulouse;Tivat
+Tivat;Trollhattan
+Trollhattan;Tallinn
+Tallinn;Tartu
+Tartu;Umea
+Umea;Vienna
+Vienna;Varna
+Varna;Volos
+Volos;Valencia
+Valencia;Valladolid
+Valladolid;Venice
+Venice;Verona
+Verona;Ventspils
+Ventspils;Vilnius
+Vilnius;Iasi
+Iasi;Vaxjo
+Vaxjo;Visby
+Visby;Wangerooge
+Wangerooge;Weeze
+Weeze;Westerland
+Westerland;Wilhelmshaven
+Wilhelmshaven;Warsaw
+Warsaw;Wroclaw
+Wroclaw;Zweibruecken
+Zweibruecken;Zaragoza
+Zaragoza;Zagreb
+Zagreb;Zadar
+Zadar;Zurich
+Zurich;Chisinau
+Chisinau;Minsk
+Minsk;Gomel
+Gomel;Brest
+Brest;Vitebsk
+Vitebsk;Hrodna
+Hrodna;Kiev
+Kiev;Kherson
+Kherson;Chernivtsi
+Chernivtsi;Odesa
+Odesa;Zaporizhia
+Zaporizhia;Vinnytsia
+Vinnytsia;Lviv
+Lviv;Dnipro
+Dnipro;Kharkiv
+Kharkiv;Ivano-Frankivsk
+Ivano-Frankivsk;Moscow
+Moscow;Saint Petersburg
+Saint Petersburg;Sochi
+Sochi;Novosibirsk
+Novosibirsk;Ekaterinburg
+Ekaterinburg;Krasnodar
+Krasnodar;Anapa
+Anapa;Kaliningrad
+Kaliningrad;Platov
+Platov;Samara
+Samara;Irkutsk
+Irkutsk;Krasnoyarsk
+Krasnoyarsk;Ufa
+Ufa;Kazan
+Kazan;Mineralnye Vody
+Mineralnye Vody;Tyumen
+Tyumen;Khabarovsk
+Khabarovsk;Surgut
+Surgut;Vladivostok
+Vladivostok;Yakutsk
+Yakutsk;Perm
+Perm;Chelyabinsk
+Chelyabinsk;Novy Urengoy
+Novy Urengoy;Murmansk
+Murmansk;Nizhniy Novgorod
+Nizhniy Novgorod;Volgograd
+Volgograd;Yuzhno-Sakhalinsk
+Yuzhno-Sakhalinsk;Arkhangelsk
+Arkhangelsk;Omsk
+Omsk;Makhachkala
+Makhachkala;Gelendzik
+Gelendzik;Petropavlovsk-Kamchatsky
+Petropavlovsk-Kamchatsky;Naberezhnye Chelny
+Naberezhnye Chelny;Tomsk
+Tomsk;Nizhnevartovsk
+Nizhnevartovsk;Orenburg
+Orenburg;Voronezh
+Voronezh;Syktyvkar
+Syktyvkar;Barnaul
+Barnaul;Astrakhan
+Astrakhan;Norilsk
+Norilsk;Belgorod
+Belgorod;Salehard
+Salehard;Chita
+Chita;Izhevsk
+Izhevsk;Khanty-Mansiysk
+Khanty-Mansiysk;Saratov
+Saratov;Stavropol
+Stavropol;Magadan
+Magadan;Kemerovo
+Kemerovo;Abakan
+Abakan;Grozny
+Grozny;Novokuzinetsk
+Novokuzinetsk;Vladikavkaz
+Vladikavkaz;Ulyanovsk
+Ulyanovsk;Nojabrxsk
+Nojabrxsk;Penza
+Penza;Saransk
+Saransk;Nadym
+Nadym;Magnitogorsk
+Magnitogorsk;Rostov on Don
+Rostov on Don;Cheboksary
+Cheboksary;Blagoveschensk
+Blagoveschensk;Nalchik
+Nalchik;Cherepovets
+Cherepovets;Magas
+Magas;Kirov
+Kirov;Naryan-Mar
+Naryan-Mar;Bratsk
+Bratsk;Elista
+Elista;Gorno-Altaysk
+Gorno-Altaysk;Talakan
+Talakan;Tambov
+Tambov;Vorkuta
+Vorkuta;Neryungri
+Neryungri;Ivanovo
+Ivanovo;Anadyr
+Anadyr;Kursk
+Kursk;Kogalym
+Kogalym;Kurgan
+Kurgan;Petrozavodsk
+Petrozavodsk;Orsk
+Orsk;Kaluga
+Kaluga;Okha
+Okha;Briansk
+Briansk;Strzhewoi
+Strzhewoi;Kyzyl
+Kyzyl;Tiksi
+Tiksi;Yaroslavl
+Yaroslavl;Pevek
+Pevek;Solovetsky
+Solovetsky;Velikij Ustyug
+Velikij Ustyug;Aldan
+Aldan;Mirny
+Mirny;Beloyarsky
+Beloyarsky;Bodaybo
+Bodaybo;Ust-Kut
+Ust-Kut;Usinsk
+Usinsk;Nyagan
+Nyagan;Lensk
+Lensk;Batagay
+Batagay;Uraj
+Uraj;Nikolaevsk-na-Amure
+Nikolaevsk-na-Amure;Berezovo
+Berezovo;Bugulma
+Bugulma;Olyokminsk
+Olyokminsk;Belaya Gora
+Belaya Gora;Mendeleyevo
+Mendeleyevo;Srednekolymsk
+Srednekolymsk;Lipetsk
+Lipetsk;Nyurba
+Nyurba;Zyryanka
+Zyryanka;Ust-Maya
+Ust-Maya;Iturup
+Iturup;Kirensk
+Kirensk;Keperveyem
+Keperveyem;Deputatsky
+Deputatsky;Turukhansk
+Turukhansk;Ust-Nera
+Ust-Nera;Saskylakh
+Saskylakh;Terney
+Terney;Olenyok
+Olenyok;Cherskiy
+Cherskiy;Kavalerovo
+Kavalerovo;Igarka
+Igarka;Igrim
+Igrim;Ust-Kuyga
+Ust-Kuyga;Hatanga
+Hatanga;Dalnegorsk
+Dalnegorsk;Nogliki
+Nogliki;Chokurdah
+Chokurdah;Yerbogachen
+Yerbogachen;Tynda
+Tynda;Preobrazheniye
+Preobrazheniye;Podkamennaya Tunguska
+Podkamennaya Tunguska;Zhigansk
+Zhigansk;Dikson
+Dikson;Verkhnevilyuysk
+Verkhnevilyuysk;Vilyuysk
+Vilyuysk;Dalnerechensk
+Dalnerechensk;Svetlaya
+Svetlaya;Komsomolsk Na Amure
+Komsomolsk Na Amure;Teply Klyuch
+Teply Klyuch;Bogorodskoye
+Bogorodskoye;Plastun
+Plastun;Kotlas
+Kotlas;Amgu
+Amgu;Yedinka
+Yedinka;Joshkar-Ola
+Joshkar-Ola;Ukhta
+Ukhta;Shakhtyorsk
+Shakhtyorsk;Suntar
+Suntar;Pristina
+Pristina;Thimphu
+Thimphu;Ulaanbaatar
+Ulaanbaatar;Vientiane
+Vientiane;Agartala
+Agartala;Agraя
+Agraя;Ahmedabadя
+Ahmedabadя;Aizawlя
+Aizawlя;Allahabadя
+Allahabadя;Amritsarя
+Amritsarя;Aurangabadя
+Aurangabadя;Bagdograя
+Bagdograя;Belgaumя
+Belgaumя;Bhavnagarя
+Bhavnagarя;Bhopalя
+Bhopalя;Bhubaneswarя
+Bhubaneswarя;Bhujя
+Bhujя;Bikanerя
+Bikanerя;Chandigarhя
+Chandigarhя;Coimbatoreя
+Coimbatoreя;Dehradunя
+Dehradunя;Dharamsalaя
+Dharamsalaя;Dibrugarhя
+Dibrugarhя;Dimapurя
+Dimapurя;Diuя
+Diuя;Gayaя
+Gayaя;Chicalim
+Chicalim;Gorakhpurя
+Gorakhpurя;Guwahatiя
+Guwahatiя;Gwaliorя
+Gwaliorя;Hubliя
+Hubliя;Hyderabad я
+Hyderabad я;Imphalя
+Imphalя;Indoreя
+Indoreя;Jabalpurя
+Jabalpurя;Jaisalmerя
+Jaisalmerя;Jalgaonя
+Jalgaonя;Jammuя
+Jammuя;Jamnagarя
+Jamnagarя;Jodhpurя
+Jodhpurя;Jorhatя
+Jorhatя;Kadapaя
+Kadapaя;Kandlaя
+Kandlaя;Kanpurя
+Kanpurя;Kazi Nazrul Islamя
+Kazi Nazrul Islamя;Khajurahoя
+Khajurahoя;Kochi я
+Kochi я;Kolhapurя
+Kolhapurя;Kozhikodeя
+Kozhikodeя;Kuluя
+Kuluя;Lehя
+Lehя;Lucknowя
+Lucknowя;Ludhianaя
+Ludhianaя;Maduraiя
+Maduraiя;Mangaloreя
+Mangaloreя;Mysoreя
+Mysoreя;Nagpurя
+Nagpurя;Nandedя
+Nandedя;Nasikя
+Nasikя;Pantnagarя
+Pantnagarя;Pasighatя
+Pasighatя;Patnaя
+Patnaя;Porbandarя
+Porbandarя;Port blairя
+Port blairя;Puducherryя
+Puducherryя;Puneя
+Puneя;Raipurя
+Raipurя;Rajahmundryя
+Rajahmundryя;Rajkotя
+Rajkotя;Ranchiя
+Ranchiя;Salem я
+Salem я;Shillongя
+Shillongя;Shimlaя
+Shimlaя;Shirdiя
+Shirdiя;Silcharя
+Silcharя;Srinagarя
+Srinagarя;Suratя
+Suratя;Tezpurя
+Tezpurя;Thiruvananthapuramя
+Thiruvananthapuramя;Tiruchirapalliя
+Tiruchirapalliя;Tirupatiя
+Tirupatiя;Tuticorinя
+Tuticorinя;Udaipurя
+Udaipurя;Vadodaraя
+Vadodaraя;Varanasiя
+Varanasiя;Vidyanagarя
+Vidyanagarя;Vijayawadaя
+Vijayawadaя;Visakhapatnamя
+Visakhapatnamя;Chiang Maiя
+Chiang Maiя;Hat Yaiя
+Hat Yaiя;Koh Samui
+Koh Samui;Udon Thaniя
+Udon Thaniя;Chiang Raiя
+Chiang Raiя;Khon Kaenя
+Khon Kaenя;Surat Thaniя
+Surat Thaniя;Ubon Ratchathaniя
+Ubon Ratchathaniя;Nakhon Si Thammaratя
+Nakhon Si Thammaratя;Phitsanulokя
+Phitsanulokя;Trangя
+Trangя;Roi Etя
+Roi Etя;Nakhon Phanomя
+Nakhon Phanomя;Buri Ramя
+Buri Ramя;Sakon Nakhonя
+Sakon Nakhonя;Lampangя
+Lampangя;Mae Sot
+Mae Sot;Ranongя
+Ranongя;Chumphonя
+Chumphonя;Loeiя
+Loeiя;Narathiwatя
+Narathiwatя;Tratя
+Tratя;Phraeя
+Phraeя;Sukhothaiя
+Sukhothaiя;Mae Hong Sonя
+Mae Hong Sonя;Hua Hin
+Hua Hin;Pai
+Pai;Chicago
+Chicago;Houston
+Houston;Phoenix
+Phoenix;Philadelphia
+Philadelphia;San Antonio
+San Antonio;San Diego
+San Diego;Dallas
+Dallas;San Jose
+San Jose;Austin
+Austin;Fort Worth
+Fort Worth;Jacksonville
+Jacksonville;Columbus
+Columbus;Charlotte
+Charlotte;Indianapolis
+Indianapolis;Seattle
+Seattle;Denver
+Denver;Washington
+Washington;Boston
+Boston;El Paso
+El Paso;Nashville
+Nashville;Detroit
+Detroit;Portland
+Portland;Oklahoma City
+Oklahoma City;Memphis
+Memphis;Louisville
+Louisville;Baltimore
+Baltimore;Milwaukee
+Milwaukee;Albuquerque
+Albuquerque;Tucson
+Tucson;Fresno
+Fresno;Mesa
+Mesa;Atlanta
+Atlanta;Sacramento
+Sacramento;Kansas City
+Kansas City;Colorado Springs
+Colorado Springs;Raleigh
+Raleigh;Omaha
+Omaha;Long Beach
+Long Beach;Virginia Beach
+Virginia Beach;Minneapolis
+Minneapolis;Oakland
+Oakland;Tampa
+Tampa;Arlington
+Arlington;Tulsa
+Tulsa;Bakersfield
+Bakersfield;New Orleans
+New Orleans;Wichita
+Wichita;Aurora
+Aurora;Cleveland
+Cleveland;Anaheim
+Anaheim;Riverside
+Riverside;San Juan
+San Juan;Santa Ana
+Santa Ana;Henderson
+Henderson;Lexington
+Lexington;Corpus Christi
+Corpus Christi;Stockton
+Stockton;St. Paul
+St. Paul;Cincinnati
+Cincinnati;Irvine
+Irvine;Greensboro
+Greensboro;Pittsburgh
+Pittsburgh;Lincoln
+Lincoln;St. Louis
+St. Louis;Plano
+Plano;Anchorage
+Anchorage;Newark
+Newark;Durham
+Durham;Chula Vista
+Chula Vista;St. Petersburg
+St. Petersburg;Jersey City
+Jersey City;Fort Wayne
+Fort Wayne;Toledo
+Toledo;Chandler
+Chandler;Laredo
+Laredo;Madison
+Madison;Scottsdale
+Scottsdale;Lubbock
+Lubbock;Reno
+Reno;Gilbert
+Gilbert;Buffalo
+Buffalo;Glendale
+Glendale;North Las Vegas
+North Las Vegas;Winston-Salem
+Winston-Salem;Chesapeake
+Chesapeake;Garland
+Garland;Irving
+Irving;Hialeah
+Hialeah;Norfolk
+Norfolk;Fremont
+Fremont;Boise
+Boise;Paradise
+Paradise;Richmond
+Richmond;Arlington
+Arlington;Spokane
+Spokane;Tacoma
+Tacoma;Modesto
+Modesto;Fontana
+Fontana;Des Moines
+Des Moines;San Bernardino
+San Bernardino;Baton Rouge
+Baton Rouge;Frisco
+Frisco;Salt Lake City
+Salt Lake City;Moreno Valley
+Moreno Valley;Oxnard
+Oxnard;Santa Clarita
+Santa Clarita;Birmingham
+Birmingham;McKinney
+McKinney;Port St. Lucie
+Port St. Lucie;Fayetteville
+Fayetteville;Grand Rapids
+Grand Rapids;Glendale
+Glendale;Rochester
+Rochester;Charleston
+Charleston;Palm Springs
+Palm Springs;Sedona
+Sedona;Branson
+Branson;Montreal
+Montreal;Calgary
+Calgary;Edmonton
+Edmonton;Ottawa
+Ottawa;Winnipeg
+Winnipeg;Quebec City
+Quebec City;Hamilton
+Hamilton;Kitchener
+Kitchener;London
+London;Victoria
+Victoria;Halifax
+Halifax;Oshawa
+Oshawa;Windsor
+Windsor;Saskatoon
+Saskatoon;St. Catharines
+St. Catharines;Regina
+Regina;St. John's
+St. John's;Kelowna
+Kelowna;Tehran

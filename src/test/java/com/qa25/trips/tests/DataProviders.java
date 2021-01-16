@@ -1,6 +1,6 @@
 package com.qa25.trips.tests;
 
-import com.qa25.trips.model.CityName;
+import com.qa25.trips.model.Cities;
 import org.testng.annotations.DataProvider;
 
 import java.io.BufferedReader;
@@ -13,7 +13,7 @@ import java.util.List;
 
 public class DataProviders {
 
-    //Regular tests - small one
+    //Regular tests to verify the fields filling - small one
     @DataProvider
     public Iterator<Object[]> validCityNamesFromFile() throws IOException {
 
@@ -32,7 +32,26 @@ public class DataProviders {
         return readCityNamesFromFile(reader);
     }
 
-    //Regression tests - full one
+    //Test to verify routes appear
+    @DataProvider
+    public Iterator<Object[]> validRoutesAppearFromFile() throws IOException {
+
+        BufferedReader reader = new BufferedReader(new FileReader(
+                new File("src/test/resources/DataProviderCitiesForRoutesValid.csv")));
+
+        return readCityNamesFromFile(reader);
+    }
+
+    @DataProvider
+    public Iterator<Object[]> invalidRoutesAppearFromFile() throws IOException {
+
+        BufferedReader reader = new BufferedReader(new FileReader(
+                new File("src/test/resources/DataProviderCitiesForRoutesInvalid.csv")));
+
+        return readCityNamesFromFile(reader);
+    }
+
+    //Regression tests to verify the fields filling - full one
     @DataProvider
     public Iterator<Object[]> validCityNamesFromFileRegression() throws IOException {
 
@@ -48,7 +67,11 @@ public class DataProviders {
 
         while (line != null) {
 
-            list.add(new Object[]{new CityName().setCityName(line.trim())});
+            String[] split = line.split(";");
+
+            list.add(new Object[]{new Cities()
+                    .setFromCity(split[0])
+                    .setToCity(split[1])});
             line = reader.readLine();
         }
 
