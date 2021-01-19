@@ -13,12 +13,20 @@ public class Cities {
     }
 
     public Cities setFromCity(String fromCity) {
-        this.fromCity = fromCity;
+     //   if(fromCity != null) {
+            this.fromCity = fromCity;
+     //   }else{
+      //      this.fromCity = " ";
+      //  }
         return this;
     }
 
     public Cities setToCity(String toCity) {
-        this.toCity = toCity;
+        if(toCity != null) {
+            this.toCity = toCity;
+        }else{
+            this.toCity = " ";
+        }
         return this;
     }
 

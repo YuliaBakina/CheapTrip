@@ -5,15 +5,13 @@
         <classes>
             <class name="com.qa25.trips.tests.MainPageTest">
                 <methods>
-                    <include name="mainPageCheckElementsPresentTest.*" />
-                    <include name="sloganValidationTest.*" />
-                    <include name="mainPageCheckElementsDefaultValuesSetTest.*" />
+                    <exclude name="changeLanguageValidationTest.*" />
                 </methods>
             </class>
 
             <class name="com.qa25.trips.tests.HamburgerMenuTest">
                 <methods>
-                    <include name="hamburgerMenuItemsTest.*" />
+
                 </methods>
             </class>
 

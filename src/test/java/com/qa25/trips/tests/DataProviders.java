@@ -3,10 +3,7 @@ package com.qa25.trips.tests;
 import com.qa25.trips.model.Cities;
 import org.testng.annotations.DataProvider;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -67,11 +64,10 @@ public class DataProviders {
 
         while (line != null) {
 
-            String[] split = line.split(";");
-
             list.add(new Object[]{new Cities()
-                    .setFromCity(split[0])
-                    .setToCity(split[1])});
+                    .setFromCity(line.split(";")[0])
+                    .setToCity(line.split(";")[1])});
+
             line = reader.readLine();
         }
 

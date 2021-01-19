@@ -39,7 +39,7 @@ public class HelperBase {
 /*        wd.findElement(locator).sendKeys(Keys.CONTROL + "a");
         wd.findElement(locator).sendKeys(Keys.DELETE);*/
 
-        if(text != null){
+        if(text.trim() != null){
             wd.findElement(locator).sendKeys(text);
         }
     }

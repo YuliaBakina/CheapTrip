@@ -137,6 +137,27 @@ public class MainPage extends HelperBase{
         return false;
     }
 
+    public void inputCityInFromField(String cityFrom) {
+        type(By.name("ion-input-0"),cityFrom);
+        waitUntilElementIsClicable(By.xpath("//ion-item//ion-label[@id='ion-input-0-lbl']//..//..//ion-item//ion-list"));
+        getItemsList(By.xpath("//ion-item//ion-label[@id='ion-input-0-lbl']//..//..//ion-item//ion-list")).get(0).click();
+    }
+
+    public void inputCityInToField(String cityTo) {
+        type(By.name("ion-input-1"),cityTo);
+        waitUntilElementIsClicable(By.xpath("//ion-item//ion-label[@id='ion-input-1-lbl']//..//..//ion-item//ion-list"));
+        getItemsList(By.xpath("//ion-item//ion-label[@id='ion-input-1-lbl']//..//..//ion-item//ion-list")).get(0).click();
+    }
+
+    public void clickGoButton() {
+        click(By.xpath("//ion-button[2]"));
+    }
+
+    public boolean searchResulIsDisplayed() {
+        return getItemsList(By.className("city")).size()>0;
+    }
+
+
 //////////////////////
 
 

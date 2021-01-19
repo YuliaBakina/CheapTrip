@@ -103,7 +103,7 @@ public class SearchPage extends HelperBase{
     }
 
     public void clickGoButton() {
-        System.out.println("clickGoButton");
+   //     System.out.println("clickGoButton");
         click(By.xpath("//ion-button[2]"));
     }
 

@@ -28,7 +28,7 @@ public class SearchEngineTests extends TestBase{
         appManager.getSearchPage().eraseFromField();
 
         //check the From field is empty
-        Assert.assertEquals(appManager.getMainPage().getFromValue(),"");
+        Assert.assertEquals(appManager.getMainPage().getFromValue(),"","The FROM field is not empty");
 
     }
 
@@ -39,7 +39,7 @@ public class SearchEngineTests extends TestBase{
         appManager.getSearchPage().fillFromField(cityName, "neg");
 
         //check the From field is empty
-        Assert.assertEquals(appManager.getMainPage().getFromValue(),"");
+        Assert.assertEquals(appManager.getMainPage().getFromValue(),"","The FROM field is not empty");
 
     }
 
@@ -55,7 +55,7 @@ public class SearchEngineTests extends TestBase{
         appManager.getSearchPage().eraseToField();
 
         //check the To field is empty
-        Assert.assertEquals(appManager.getMainPage().getToValue(),"");
+        Assert.assertEquals(appManager.getMainPage().getToValue(),"","The TO field is not empty");
 
     }
 
@@ -66,7 +66,7 @@ public class SearchEngineTests extends TestBase{
         appManager.getSearchPage().fillToField(cityName, "neg");
 
         //check the To field is empty
-        Assert.assertEquals(appManager.getMainPage().getToValue(),"");
+        Assert.assertEquals(appManager.getMainPage().getToValue(),"", "The TO field is not empty");
 
     }
 
@@ -83,8 +83,18 @@ public class SearchEngineTests extends TestBase{
         appManager.getSearchPage().clickClearButton();
 
         //Verify if the FROM and TO fields are empty
-        Assert.assertEquals(appManager.getMainPage().getFromValue(), "");
-        Assert.assertEquals(appManager.getMainPage().getToValue(), "");
+        Boolean fromValue = true, toValue = true;
+        String erM1 = "", erM2 = "";
+        if(!appManager.getMainPage().getFromValue().equals("")){
+            fromValue = false;
+            erM1 = "The FROM field is not empty.";
+        }
+        if(!appManager.getMainPage().getToValue().equals("")){
+            toValue = false;
+            erM2 = "The TO field is not empty.";
+        }
+
+        Assert.assertTrue(fromValue && toValue, erM1 + " " + erM2);
 
     }
 
@@ -99,11 +109,8 @@ public class SearchEngineTests extends TestBase{
         //Complete the search with Lets's go button
         appManager.getSearchPage().clickGoButton();
 
-        //Verify if the Available routes page is opened
-        Assert.assertTrue(appManager.getRoutesPage().ifRoutesPageOpened());
-
         //Verify if any routes are presented
-        Assert.assertTrue(appManager.getRoutesPage().ifRoutesPresent(cities));
+        Assert.assertTrue(appManager.getMainPage().searchResulIsDisplayed(),"Search result is not displayed!");
 
         //Go back to the Search page
         appManager.getRoutesPage().clickBackButton();
@@ -126,7 +133,7 @@ public class SearchEngineTests extends TestBase{
         appManager.getSearchPage().clickGoButton();
 
         //Verify if error message appears
-        Assert.assertTrue(appManager.getSearchPage().ifErrorMessagePresented());
+        Assert.assertTrue(appManager.getSearchPage().ifErrorMessagePresented(), appManager.getSearchPage().getErrorMessageText());
         logger.info("--> For this route error message is: " + appManager.getSearchPage().getErrorMessageText());
 
         //Close Error message
