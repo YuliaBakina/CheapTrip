@@ -1,7 +1,9 @@
 package com.qa25.trips.fw;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class MainPage extends HelperBase{
 
@@ -155,6 +157,17 @@ public class MainPage extends HelperBase{
 
     public boolean searchResulIsDisplayed() {
         return getItemsList(By.className("city")).size()>0;
+    }
+
+    public void selectAppCurrency() throws InterruptedException {
+        clickCurrencyDrDown();
+        delay(1000);
+        getItemsList(By.cssSelector(".sc-ion-select-popover.md.list-md.hydrated")).get(0).click();
+    }
+
+    public void goPageTop() {
+        Actions actions = new Actions(wd);
+        actions.keyDown(Keys.CONTROL).sendKeys(Keys.HOME).perform();
     }
 
 

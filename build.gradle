@@ -25,7 +25,7 @@ dependencies {
     implementation 'org.apache.httpcomponents:fluent-hc:4.5.6'
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'io.rest-assured:rest-assured:4.3.2'
-  //  implementation "io.appium:java-client:7.4.1"
+    implementation "io.appium:java-client:7.4.1"
 }
 
 test {

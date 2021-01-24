@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import java.lang.reflect.Method;
+import java.net.MalformedURLException;
 import java.util.Arrays;
 
 public class TestBase {
@@ -20,7 +21,7 @@ public class TestBase {
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     @BeforeSuite(alwaysRun = true)
-    public void setUp(){
+    public void setUp() throws MalformedURLException {
         appManager.init();
     }
 

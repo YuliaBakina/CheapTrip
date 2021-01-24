@@ -9,6 +9,7 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
@@ -61,10 +62,9 @@ public class ApplicationManager {
 
     public RoutesPage getRoutesPage(){return routesPage;}
 
-    public void init() {
-    //    wd = new EventFiringWebDriver(new ChromeDriver());
+    public void init() throws MalformedURLException {
 
-        if(browser.equals(BrowserType.CHROME)){
+      if(browser.equals(BrowserType.CHROME)){
             wd = new EventFiringWebDriver(new ChromeDriver());
         }else if(browser.equals(BrowserType.FIREFOX)){
             wd = new EventFiringWebDriver(new FirefoxDriver());
