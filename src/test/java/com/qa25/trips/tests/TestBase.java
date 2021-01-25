@@ -20,14 +20,14 @@ public class TestBase {
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
-    @BeforeSuite(alwaysRun = true)
+/*    @BeforeSuite(alwaysRun = true)
     public void setUp() throws MalformedURLException {
         appManager.init();
-    }
+    }*/
 
     @BeforeMethod(alwaysRun = true)
-    public void startTest(Method m, Object[] p)
-    {
+    public void startTest(Method m, Object[] p) throws MalformedURLException {
+        appManager.init();
         logger.info("Start test: " + m.getName());
         if(p.length != 0) {
             logger.info(" --> With data: " + Arrays.asList(p));
@@ -55,6 +55,8 @@ public class TestBase {
 
         logger.info("Stop test: " + result.getMethod().getMethodName());
         logger.info("======================================================");
+
+        appManager.stop();
     }
 
 

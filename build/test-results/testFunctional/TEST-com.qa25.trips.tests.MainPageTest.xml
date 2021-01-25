@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.qa25.trips.tests.MainPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-15T02:12:55" hostname="JULIABOOK" time="2.268">
+<testsuite name="com.qa25.trips.tests.MainPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-25T13:06:42" hostname="JULIABOOK" time="2.314">
   <properties/>
-  <testcase name="changeLanguageValidationTest" classname="com.qa25.trips.tests.MainPageTest" time="2.268"/>
-  <system-out><![CDATA[04:12:55.849 INFO  com.qa25.trips.tests.TestBase - Start test: changeLanguageValidationTest
-04:12:58.122 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
-04:12:58.122 INFO  com.qa25.trips.tests.TestBase - Stop test: changeLanguageValidationTest
-04:12:58.122 INFO  com.qa25.trips.tests.TestBase - ======================================================
+  <testcase name="changeLanguageValidationTest" classname="com.qa25.trips.tests.MainPageTest" time="2.314"/>
+  <system-out><![CDATA[15:06:42.782 INFO  com.qa25.trips.tests.TestBase - Start test: changeLanguageValidationTest
+15:06:45.111 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:06:45.112 INFO  com.qa25.trips.tests.TestBase - Stop test: changeLanguageValidationTest
+15:06:45.112 INFO  com.qa25.trips.tests.TestBase - ======================================================
 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 42437
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 25, 2021 3:06:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
 </testsuite>

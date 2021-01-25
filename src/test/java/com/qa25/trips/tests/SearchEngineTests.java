@@ -2,16 +2,20 @@ package com.qa25.trips.tests;
 
 import com.qa25.trips.model.Cities;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class SearchEngineTests extends TestBase{
 
-    @BeforeClass
+    @BeforeMethod
     public void insurePreconditions() throws InterruptedException {
-        appManager.getMainPage().opeMainPage(appManager.getBaseURL());
+
         if(!appManager.getMainPage().getLanguageValue().equals("En")) {
             appManager.getMainPage().selectAppLanguage(0);
+        }
+
+        if(!appManager.getMainPage().getCurrencyValue().equals("EUR")) {
+            appManager.getMainPage().selectAppCurrency();
         }
 
     }
@@ -20,7 +24,7 @@ public class SearchEngineTests extends TestBase{
     //Regular tests
     @Test(dataProvider = "validCityNamesFromFile",dataProviderClass = DataProviders.class,
           enabled = true, priority = 0, groups = {"functional"})
-    public void fillFromFieldPositiveTest(Cities cityName)  {
+    public void fillFromFieldPositiveTest(Cities cityName) throws InterruptedException {
         //fill the From field
         appManager.getSearchPage().fillFromField(cityName,"pos");
 
@@ -34,7 +38,7 @@ public class SearchEngineTests extends TestBase{
 
     @Test(dataProvider = "invalidCityNamesFromFile",dataProviderClass = DataProviders.class,
             enabled = true, priority = 1, groups = {"functional"})
-    public void FillFromFieldNegativeTest(Cities  cityName)  {
+    public void FillFromFieldNegativeTest(Cities  cityName) throws InterruptedException {
         //fill the From field
         appManager.getSearchPage().fillFromField(cityName, "neg");
 
@@ -47,7 +51,7 @@ public class SearchEngineTests extends TestBase{
     //Regular tests
     @Test(dataProvider = "validCityNamesFromFile",dataProviderClass = DataProviders.class,
             enabled = true, priority = 0, groups = {"functional"})
-    public void fillToFieldPositiveTest(Cities cityName)  {
+    public void fillToFieldPositiveTest(Cities cityName) throws InterruptedException {
         //fill the To field
         appManager.getSearchPage().fillToField(cityName, "pos");
 
@@ -61,7 +65,7 @@ public class SearchEngineTests extends TestBase{
 
     @Test(dataProvider = "invalidCityNamesFromFile",dataProviderClass = DataProviders.class,
             enabled = true, priority = 1, groups = {"functional"})
-    public void FillToFieldNegativeTest(Cities  cityName)  {
+    public void FillToFieldNegativeTest(Cities  cityName) throws InterruptedException {
         //fill the To field
         appManager.getSearchPage().fillToField(cityName, "neg");
 
@@ -74,7 +78,7 @@ public class SearchEngineTests extends TestBase{
     //CLEAR button
     @Test(dataProvider = "validCityNamesFromFile",dataProviderClass = DataProviders.class,
             enabled = true, priority = 2, groups = {"functional"})
-    public void clearButtonPositiveTest(Cities cities){
+    public void clearButtonPositiveTest(Cities cities) throws InterruptedException {
         //Fill the FROM and TO fields with valid data
         appManager.getSearchPage().fillFromField(cities,"pos");
         appManager.getSearchPage().fillToField(cities,"pos");
@@ -124,7 +128,7 @@ public class SearchEngineTests extends TestBase{
 
     @Test(dataProvider = "invalidRoutesAppearFromFile",dataProviderClass = DataProviders.class,
             enabled = true, priority = 2, groups = {"functional"})
-    public void goButtonNegativeTest(Cities cities){
+    public void goButtonNegativeTest(Cities cities) throws InterruptedException {
         //Fill the FROM and TO fields with valid data
         appManager.getSearchPage().fillFromField(cities,"pos");
         appManager.getSearchPage().fillToField(cities,"pos");
@@ -147,7 +151,7 @@ public class SearchEngineTests extends TestBase{
 //////REGRESSIONS TESTS for FROM and TO fields on all of the cities
     @Test(dataProvider = "validCityNamesFromFileRegression",dataProviderClass = DataProviders.class,
             enabled = false, priority = 3, groups = {"functional"})
-    public void fillFieldsPositiveRegressionTest(Cities  cityName)  {
+    public void fillFieldsPositiveRegressionTest(Cities  cityName) throws InterruptedException {
         //fill the From field
         appManager.getSearchPage().fillFromField(cityName,"pos");
 

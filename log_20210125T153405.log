@@ -1,0 +1,46 @@
+15:34:14 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:34:14 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Antwerp, TO city: Barnaul]
+15:34:30 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:34:31 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:34:31 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:34:31 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:34:31 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:34:41 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:34:41 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Paris, TO city: Prague]
+15:34:55 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:34:57 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:34:57 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:34:57 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:34:57 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:35:07 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:35:07 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Rome, TO city: Kiev]
+15:35:21 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:35:23 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:35:24 INFO  com.qa25.trips.tests.TestBase - Route#3: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:35:24 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:35:24 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:35:24 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:35:34 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:35:34 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Moscow, TO city: Tel-Aviv]
+15:35:41 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+15:35:41 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+15:35:44 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 1.0
+15:35:45 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 1.0
+15:35:46 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:35:46 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:35:46 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:35:55 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:35:55 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Kiev, TO city: Moscow]
+15:36:10 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:36:12 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:36:12 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:36:12 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:36:12 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:36:21 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:36:21 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Barcelona, TO city: Glasgow]
+15:36:36 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 1.0
+15:36:38 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:36:39 INFO  com.qa25.trips.tests.TestBase - Route#3: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:36:39 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:36:39 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:36:39 INFO  com.qa25.trips.tests.TestBase - ======================================================

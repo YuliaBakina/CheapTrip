@@ -23,13 +23,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">5</div>
+<div class="counter">6</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">2</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1m2.57s</div>
+<div class="counter">1m29.29s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">60%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,149 +61,16 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
+<a href="#tab1">Standard output</a>
 </li>
 <li>
-<a href="#tab2">Standard output</a>
+<a href="#tab2">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="TotalsValidationTest[1](Cities names: FROM city: Paris, TO city: Prague)"></a>
-<h3 class="failures">TotalsValidationTest[1](Cities names: FROM city: Paris, TO city: Prague)</h3>
-<span class="code">
-<pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
-	at java.util.ArrayList.get(ArrayList.java:433)
-	at com.qa25.trips.fw.SearchPage.fillFromField(SearchPage.java:21)
-	at com.qa25.trips.tests.RoutesPageTests.TotalsValidationTest(RoutesPageTests.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.lang.Thread.run(Thread.java:748)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="TotalsValidationTest[3](Cities names: FROM city: Moscow, TO city: Kiev)"></a>
-<h3 class="failures">TotalsValidationTest[3](Cities names: FROM city: Moscow, TO city: Kiev)</h3>
-<span class="code">
-<pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
-	at java.util.ArrayList.get(ArrayList.java:433)
-	at com.qa25.trips.fw.SearchPage.fillFromField(SearchPage.java:21)
-	at com.qa25.trips.tests.RoutesPageTests.TotalsValidationTest(RoutesPageTests.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.lang.Thread.run(Thread.java:748)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -214,72 +81,128 @@
 </tr>
 </thead>
 <tr>
-<td class="success">TotalsValidationTest[0](Cities names: FROM city: Rome, TO city: Kiev)</td>
-<td class="success">16.000s</td>
+<td class="success">totalsValidationTest[0](Cities names: FROM city: Antwerp, TO city: Barnaul)</td>
+<td class="success">15.319s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">TotalsValidationTest[1](Cities names: FROM city: Paris, TO city: Prague)</td>
-<td class="failures">10.236s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="success">TotalsValidationTest[2](Cities names: FROM city: Moscow, TO city: Tel-Aviv)</td>
-<td class="success">10.202s</td>
+<td class="success">totalsValidationTest[1](Cities names: FROM city: Paris, TO city: Prague)</td>
+<td class="success">15.153s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">TotalsValidationTest[3](Cities names: FROM city: Moscow, TO city: Kiev)</td>
-<td class="failures">10.230s</td>
-<td class="failures">failed</td>
+<td class="success">totalsValidationTest[2](Cities names: FROM city: Rome, TO city: Kiev)</td>
+<td class="success">16.336s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">TotalsValidationTest[4](Cities names: FROM city: Barcelona, TO city: Glasgow)</td>
-<td class="success">15.897s</td>
+<td class="success">totalsValidationTest[3](Cities names: FROM city: Moscow, TO city: Tel-Aviv)</td>
+<td class="success">10.733s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">totalsValidationTest[4](Cities names: FROM city: Kiev, TO city: Moscow)</td>
+<td class="success">15.201s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">totalsValidationTest[5](Cities names: FROM city: Barcelona, TO city: Glasgow)</td>
+<td class="success">16.551s</td>
 <td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>16:33:24.176 INFO  com.qa25.trips.tests.TestBase - Start test: TotalsValidationTest
-16:33:24.183 INFO  com.qa25.trips.tests.TestBase -  --&gt; With data: [Cities names: FROM city: Rome, TO city: Kiev]
-16:33:37.345 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
-16:33:38.535 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
-16:33:39.842 INFO  com.qa25.trips.tests.TestBase - Route#3: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
-16:33:40.191 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
-16:33:40.191 INFO  com.qa25.trips.tests.TestBase - Stop test: TotalsValidationTest
-16:33:40.192 INFO  com.qa25.trips.tests.TestBase - ======================================================
-16:33:40.194 INFO  com.qa25.trips.tests.TestBase - Start test: TotalsValidationTest
-16:33:40.195 INFO  com.qa25.trips.tests.TestBase -  --&gt; With data: [Cities names: FROM city: Paris, TO city: Prague]
-16:33:50.438 ERROR com.qa25.trips.tests.TestBase - Test result: FAILED
-16:33:50.847 INFO  com.qa25.trips.tests.TestBase - Screenshot: C:\Users\Admin\Documents\gitHub\Trips\screenshot_1611498830838.png
-16:33:50.848 INFO  com.qa25.trips.tests.TestBase - Stop test: TotalsValidationTest
-16:33:50.848 INFO  com.qa25.trips.tests.TestBase - ======================================================
-16:33:50.849 INFO  com.qa25.trips.tests.TestBase - Start test: TotalsValidationTest
-16:33:50.849 INFO  com.qa25.trips.tests.TestBase -  --&gt; With data: [Cities names: FROM city: Moscow, TO city: Tel-Aviv]
-16:33:56.727 INFO  com.qa25.trips.tests.TestBase -    --&gt; Error message: Sorry, only Latin characteres are allowed now.
-16:33:56.728 INFO  com.qa25.trips.tests.TestBase -    --&gt; Test is fail, but should be pass
-16:33:59.477 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 1.0
-16:34:00.716 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 1.0
-16:34:01.051 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
-16:34:01.052 INFO  com.qa25.trips.tests.TestBase - Stop test: TotalsValidationTest
-16:34:01.052 INFO  com.qa25.trips.tests.TestBase - ======================================================
-16:34:01.052 INFO  com.qa25.trips.tests.TestBase - Start test: TotalsValidationTest
-16:34:01.053 INFO  com.qa25.trips.tests.TestBase -  --&gt; With data: [Cities names: FROM city: Moscow, TO city: Kiev]
-16:34:11.285 ERROR com.qa25.trips.tests.TestBase - Test result: FAILED
-16:34:11.682 INFO  com.qa25.trips.tests.TestBase - Screenshot: C:\Users\Admin\Documents\gitHub\Trips\screenshot_1611498851681.png
-16:34:11.682 INFO  com.qa25.trips.tests.TestBase - Stop test: TotalsValidationTest
-16:34:11.682 INFO  com.qa25.trips.tests.TestBase - ======================================================
-16:34:11.683 INFO  com.qa25.trips.tests.TestBase - Start test: TotalsValidationTest
-16:34:11.684 INFO  com.qa25.trips.tests.TestBase -  --&gt; With data: [Cities names: FROM city: Barcelona, TO city: Glasgow]
-16:34:24.761 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 1.0
-16:34:25.997 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
-16:34:27.249 INFO  com.qa25.trips.tests.TestBase - Route#3: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
-16:34:27.582 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
-16:34:27.583 INFO  com.qa25.trips.tests.TestBase - Stop test: TotalsValidationTest
-16:34:27.584 INFO  com.qa25.trips.tests.TestBase - ======================================================
+<pre>15:34:14.975 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:34:14.979 INFO  com.qa25.trips.tests.TestBase -  --&gt; With data: [Cities names: FROM city: Antwerp, TO city: Barnaul]
+15:34:30.025 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:34:31.403 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:34:31.750 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:34:31.750 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:34:31.751 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:34:41.074 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:34:41.074 INFO  com.qa25.trips.tests.TestBase -  --&gt; With data: [Cities names: FROM city: Paris, TO city: Prague]
+15:34:55.941 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:34:57.168 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:34:57.562 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:34:57.563 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:34:57.563 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:35:07.067 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:35:07.067 INFO  com.qa25.trips.tests.TestBase -  --&gt; With data: [Cities names: FROM city: Rome, TO city: Kiev]
+15:35:21.799 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:35:23.002 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:35:24.300 INFO  com.qa25.trips.tests.TestBase - Route#3: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:35:24.648 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:35:24.648 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:35:24.648 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:35:34.092 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:35:34.092 INFO  com.qa25.trips.tests.TestBase -  --&gt; With data: [Cities names: FROM city: Moscow, TO city: Tel-Aviv]
+15:35:41.553 INFO  com.qa25.trips.tests.TestBase -    --&gt; Error message: Sorry, only Latin characteres are allowed now.
+15:35:41.553 INFO  com.qa25.trips.tests.TestBase -    --&gt; Test is fail, but should be pass
+15:35:44.600 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 1.0
+15:35:45.855 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 1.0
+15:35:46.324 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:35:46.324 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:35:46.324 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:35:55.971 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:35:55.972 INFO  com.qa25.trips.tests.TestBase -  --&gt; With data: [Cities names: FROM city: Kiev, TO city: Moscow]
+15:36:10.853 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:36:12.082 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:36:12.472 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:36:12.473 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:36:12.473 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:36:21.853 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:36:21.853 INFO  com.qa25.trips.tests.TestBase -  --&gt; With data: [Cities names: FROM city: Barcelona, TO city: Glasgow]
+15:36:36.744 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 1.0
+15:36:38.006 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:36:39.318 INFO  com.qa25.trips.tests.TestBase - Route#3: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:36:39.684 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:36:39.685 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:36:39.685 INFO  com.qa25.trips.tests.TestBase - ======================================================
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 22058
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 25, 2021 3:34:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 41804
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 25, 2021 3:34:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 39028
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 25, 2021 3:35:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 2878
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 25, 2021 3:35:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 16973
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 25, 2021 3:35:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 6245
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 25, 2021 3:36:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
 </pre>
 </span>
 </div>
@@ -291,7 +214,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.3</a> at 24.01.2021 16:34:28</p>
+<a href="http://www.gradle.org">Gradle 6.3</a> at 25.01.2021 15:36:40</p>
 </div>
 </div>
 </body>

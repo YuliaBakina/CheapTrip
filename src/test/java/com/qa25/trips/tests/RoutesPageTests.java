@@ -1,26 +1,25 @@
 package com.qa25.trips.tests;
 
 import com.qa25.trips.model.Cities;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RoutesPageTests extends TestBase {
 
-    @BeforeTest
+    @BeforeMethod
     public void insurePreconditions() throws InterruptedException {
-        appManager.getMainPage().opeMainPage(appManager.getBaseURL());
         if(!appManager.getMainPage().getLanguageValue().equals("En")) {
             appManager.getMainPage().selectAppLanguage(0);
         }
-        if(!appManager.getMainPage().getCurrencyValue().equals("EUR")){
+
+        if(!appManager.getMainPage().getCurrencyValue().equals("EUR")) {
             appManager.getMainPage().selectAppCurrency();
         }
-
     }
 
     @Test(dataProvider = "validRoutesAppearFromFile",dataProviderClass = DataProviders.class,
-            enabled = true, priority = 2, groups = {"functional"})
-    public void TotalsValidationTest(Cities cities) throws InterruptedException {
+            enabled = true, priority = 0, groups = {"functional"})
+    public void totalsValidationTest(Cities cities) throws InterruptedException {
 
         //Fill the FROM and TO fields with valid data
         appManager.getSearchPage().fillFromField(cities,"pos");

@@ -9,7 +9,7 @@ public class SearchPage extends HelperBase{
         super(wd);
     }
 
-    public void fillFromField(Cities cities, String testType) {
+    public void fillFromField(Cities cities, String testType) throws InterruptedException {
        // testType == pos || testType == neg
 
        type(By.name("ion-input-0"), cities.getFromCity());
@@ -43,7 +43,7 @@ public class SearchPage extends HelperBase{
 
     }
 
-    public void fillToField(Cities cities, String testType){
+    public void fillToField(Cities cities, String testType) throws InterruptedException {
         // testType == pos || testType == neg
         type(By.name("ion-input-1"), cities.getToCity());
 

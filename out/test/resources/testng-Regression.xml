@@ -23,7 +23,16 @@
 
         </classes>
     </test>
+    <test name="MainPage" >
+        <classes>
+            <class name="com.qa25.trips.tests.RoutesPageTests">
+                <methods>
 
+                </methods>
+            </class>
+
+        </classes>
+    </test>
 
 </suite>
 

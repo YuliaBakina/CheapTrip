@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.qa25.trips.tests.RoutesPageTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-01-25T13:24:25" hostname="JULIABOOK" time="115.984">
+  <properties/>
+  <testcase name="totalsValidationTest[0](Cities names: FROM city: Paris, TO city: Prague)" classname="com.qa25.trips.tests.RoutesPageTests" time="15.115"/>
+  <testcase name="totalsValidationTest[1](Cities names: FROM city: Rome, TO city: Kiev)" classname="com.qa25.trips.tests.RoutesPageTests" time="16.32"/>
+  <testcase name="totalsValidationTest[2](Cities names: FROM city: Moscow, TO city: Tel-Aviv)" classname="com.qa25.trips.tests.RoutesPageTests" time="10.451"/>
+  <testcase name="totalsValidationTest[3](Cities names: FROM city: Kiev, TO city: Moscow)" classname="com.qa25.trips.tests.RoutesPageTests" time="15.008"/>
+  <testcase name="totalsValidationTest[4](Cities names: FROM city: Barcelona, TO city: Glasgow)" classname="com.qa25.trips.tests.RoutesPageTests" time="16.476"/>
+  <system-out><![CDATA[15:24:24.584 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:24:24.584 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Paris, TO city: Prague]
+15:24:39.382 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:24:40.602 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:24:40.931 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:24:40.931 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:24:40.931 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:24:50.708 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:24:50.708 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Rome, TO city: Kiev]
+15:25:05.361 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:25:06.602 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:25:07.891 INFO  com.qa25.trips.tests.TestBase - Route#3: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:25:08.262 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:25:08.262 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:25:08.262 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:25:17.636 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:25:17.636 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Moscow, TO city: Tel-Aviv]
+15:25:24.688 INFO  com.qa25.trips.tests.TestBase -    --> Error message: Sorry, only Latin characteres are allowed now.
+15:25:24.688 INFO  com.qa25.trips.tests.TestBase -    --> Test is fail, but should be pass
+15:25:27.660 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 1.0
+15:25:28.915 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 1.0
+15:25:29.299 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:25:29.299 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:25:29.299 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:25:38.587 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:25:38.587 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Kiev, TO city: Moscow]
+15:25:53.221 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:25:54.452 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:25:54.812 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:25:54.812 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:25:54.812 INFO  com.qa25.trips.tests.TestBase - ======================================================
+15:26:04.023 INFO  com.qa25.trips.tests.TestBase - Start test: totalsValidationTest
+15:26:04.024 INFO  com.qa25.trips.tests.TestBase -  --> With data: [Cities names: FROM city: Barcelona, TO city: Glasgow]
+15:26:18.922 INFO  com.qa25.trips.tests.TestBase - Route#1: differences between total and subtotal durations = 0, between total and subtotal prices = 1.0
+15:26:20.189 INFO  com.qa25.trips.tests.TestBase - Route#2: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:26:21.441 INFO  com.qa25.trips.tests.TestBase - Route#3: differences between total and subtotal durations = 0, between total and subtotal prices = 0.0
+15:26:21.798 INFO  com.qa25.trips.tests.TestBase - Test result: PASSED
+15:26:21.798 INFO  com.qa25.trips.tests.TestBase - Stop test: totalsValidationTest
+15:26:21.798 INFO  com.qa25.trips.tests.TestBase - ======================================================
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 30558
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 25, 2021 3:24:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 23506
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 25, 2021 3:24:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 13899
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 25, 2021 3:25:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 5362
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 25, 2021 3:25:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 33570
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 25, 2021 3:25:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

@@ -1,16 +1,15 @@
 package com.qa25.trips.tests;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class MainPageTest extends TestBase{
 
-    @BeforeTest
-    public void insurePreconditions(){
+    @BeforeMethod
+    public void insurePreconditions() {
         appManager.getMainPage().isMainPageOpened(appManager.getBaseURL());
 
-       // appManager.getMainPage().opeMainPage(appManager.getBaseURL());
     }
 
 

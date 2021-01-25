@@ -3,6 +3,7 @@ package com.qa25.trips.fw;
 import com.google.common.io.Files;
 import com.qa25.trips.tests.TestBase;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
@@ -32,16 +33,15 @@ public class HelperBase {
         return wd.findElements(locator);
     }
 
-    public void type(By locator, String text) {
-        click(locator);
-        wd.findElement(locator).clear(); //
-
-/*        wd.findElement(locator).sendKeys(Keys.CONTROL + "a");
-        wd.findElement(locator).sendKeys(Keys.DELETE);*/
+    public void type(By locator, String text) throws InterruptedException {
+        WebElement field = wd.findElement(locator);
+        field.click();
+        field.clear();
 
         if(text.trim() != null){
-            wd.findElement(locator).sendKeys(text);
+            field.sendKeys(text);
         }
+
     }
 
     public void click(By locator){
@@ -72,5 +72,9 @@ public class HelperBase {
         return screeenshot.getAbsolutePath();
     }
 
+    public void scrollPageDown(){
+        Actions actions = new Actions(wd);
+        actions.keyDown(Keys.CONTROL).sendKeys(Keys.END).perform();
+    }
 
 }

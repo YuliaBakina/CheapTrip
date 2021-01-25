@@ -139,13 +139,13 @@ public class MainPage extends HelperBase{
         return false;
     }
 
-    public void inputCityInFromField(String cityFrom) {
+    public void inputCityInFromField(String cityFrom) throws InterruptedException {
         type(By.name("ion-input-0"),cityFrom);
         waitUntilElementIsClicable(By.xpath("//ion-item//ion-label[@id='ion-input-0-lbl']//..//..//ion-item//ion-list"));
         getItemsList(By.xpath("//ion-item//ion-label[@id='ion-input-0-lbl']//..//..//ion-item//ion-list")).get(0).click();
     }
 
-    public void inputCityInToField(String cityTo) {
+    public void inputCityInToField(String cityTo) throws InterruptedException {
         type(By.name("ion-input-1"),cityTo);
         waitUntilElementIsClicable(By.xpath("//ion-item//ion-label[@id='ion-input-1-lbl']//..//..//ion-item//ion-list"));
         getItemsList(By.xpath("//ion-item//ion-label[@id='ion-input-1-lbl']//..//..//ion-item//ion-list")).get(0).click();
@@ -162,7 +162,7 @@ public class MainPage extends HelperBase{
     public void selectAppCurrency() throws InterruptedException {
         clickCurrencyDrDown();
         delay(1000);
-        getItemsList(By.cssSelector(".sc-ion-select-popover.md.list-md.hydrated")).get(0).click();
+        getItemsList(By.cssSelector("ion-item.select-interface-option")).get(0).click();
     }
 
     public void goPageTop() {

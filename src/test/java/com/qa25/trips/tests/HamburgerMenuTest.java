@@ -1,7 +1,6 @@
 package com.qa25.trips.tests;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -9,11 +8,13 @@ public class HamburgerMenuTest extends TestBase{
 
     @BeforeMethod
     public void insurePreconditions() throws InterruptedException {
-        appManager.getMainPage().opeMainPage(appManager.getBaseURL());
         if(!appManager.getMainPage().getLanguageValue().equals("En")) {
             appManager.getMainPage().selectAppLanguage(0);
         }
 
+        if(!appManager.getMainPage().getCurrencyValue().equals("EUR")) {
+            appManager.getMainPage().selectAppCurrency();
+        }
     }
 
     @Test(enabled = true, priority = 0, groups = {"UI"})
